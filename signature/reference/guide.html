@@ -1,0 +1,987 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0069)http://www.londatiga.net/it/how-to-create-android-update-zip-package/ -->
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US"><head profile="http://gmpg.org/xfn/11"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="./guide_files/saved_resource"></script><script type="text/javascript" async="true" src="./guide_files/count"></script><link rel="stylesheet" type="text/css" href="./guide_files/widget71.css" media="all"><link rel="stylesheet" type="text/css" href="./guide_files/buttons.css">
+<meta name="google-site-verification" content="gx42ZEaRVaYuSL0kiMiE4ACxOYmF87Q5F9F_e0fRvZI">
+<meta name="blogcatalog" content="9BC9587086">
+<meta name="technorati" content="TV6CA39U8TTG">
+
+<title>How to Create Android Update Zip Package | All About Web &amp; Mobile Application Development</title>
+<link rel="stylesheet" href="./guide_files/style.css" type="text/css" media="screen">
+<!--[if IE 7]>	
+<link rel="stylesheet" type="text/css" media="all" href="http://www.londatiga.net/wp-content/themes/TidalForce/iestyle.css" />
+<![endif]-->
+<!--[if lt IE 7]>
+<link rel="stylesheet" type="text/css" media="all" href="http://www.londatiga.net/wp-content/themes/TidalForce/ie6style.css" />
+<![endif]-->
+<link rel="alternate" type="application/rss+xml" title="All About Web &amp; Mobile Application Development RSS Feed" href="http://www.londatiga.net/feed/">
+<link rel="alternate" type="application/atom+xml" title="All About Web &amp; Mobile Application Development Atom Feed" href="http://www.londatiga.net/feed/atom/">
+<link rel="pingback" href="http://www.londatiga.net/xmlrpc.php">
+<link rel="alternate" type="application/rss+xml" title="All About Web &amp; Mobile Application Development » How to Create Android Update Zip Package Comments Feed" href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/feed/">
+<link rel="stylesheet" id="contact-form-7-css" href="./guide_files/styles.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-pagenavi-css" href="./guide_files/pagenavi-css.css" type="text/css" media="">
+<script type="text/javascript" async="" src="./guide_files/plusone.js"></script><script type="text/javascript" src="./guide_files/jquery.js"></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.londatiga.net/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.londatiga.net/wp-includes/wlwmanifest.xml"> 
+<link rel="index" title="All About Web &amp; Mobile Application Development" href="http://www.londatiga.net/">
+<link rel="start" title="How to Enable MySQL InnoDB Storage Engine on XAMPP" href="http://www.londatiga.net/it/how-to-enable-innodb-on-xampp/">
+<link rel="prev" title="How to Sign Android APK or Zip Files" href="http://www.londatiga.net/it/how-to-sign-apk-zip-files/">
+<link rel="next" title="How to Use Android ADB Command Line Tool" href="http://www.londatiga.net/it/how-to-use-android-adb-command-line-tool/">
+<meta name="generator" content="WordPress 2.8.5">
+<script type="text/javascript">
+//<![CDATA[
+var _wpcf7 = { cached: 1 };
+//]]>
+</script>
+
+<!-- platinum seo pack 1.3.7 -->
+<meta name="robots" content="index,follow,noodp,noydir">
+<meta name="description" content="How to Create Android Update Zip Package">
+<meta name="keywords" content="android, update zip, update script, meta inf, samsung spica, spica,Android,meta inf,Samsung Spica,spica,update script,update zip,Featured Articles,Information Technology">
+<link rel="canonical" href="./guide_files/guide.html">
+<!-- /platinum one seo pack -->
+<meta name="tweetmeme-title" content="How to Create Android Update Zip Package"><link rel="stylesheet" type="text/css" href="./guide_files/recaptcha.css"><link href="./guide_files/style.php" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="./guide_files/shCore.css"><link rel="stylesheet" type="text/css" href="./guide_files/shThemeMidnight.css"><meta id="syntaxhighlighteranchor" name="syntaxhighlighter-version" content="3.1.1">
+<script type="text/javascript" src="./guide_files/slider.js"></script>
+<script type="text/javascript" src="./guide_files/idtabs.js"></script>
+<script type="text/javascript" src="./guide_files/superfish.js"></script>
+<script type="text/javascript">
+jQuery(function(){
+jQuery('ul.superfish').superfish();
+});
+</script>
+<style type="text/css">.recaptchatable td img{display:block}.recaptchatable .recaptcha_r1_c1{background:url(http://www.google.com/recaptcha/api/img/white/sprite.png) 0 -63px no-repeat;width:318px;height:9px}.recaptchatable .recaptcha_r2_c1{background:url(http://www.google.com/recaptcha/api/img/white/sprite.png) -18px 0 no-repeat;width:9px;height:57px}.recaptchatable .recaptcha_r2_c2{background:url(http://www.google.com/recaptcha/api/img/white/sprite.png) -27px 0 no-repeat;width:9px;height:57px}.recaptchatable .recaptcha_r3_c1{background:url(http://www.google.com/recaptcha/api/img/white/sprite.png) 0 0 no-repeat;width:9px;height:63px}.recaptchatable .recaptcha_r3_c2{background:url(http://www.google.com/recaptcha/api/img/white/sprite.png) -18px -57px no-repeat;width:300px;height:6px}.recaptchatable .recaptcha_r3_c3{background:url(http://www.google.com/recaptcha/api/img/white/sprite.png) -9px 0 no-repeat;width:9px;height:63px}.recaptchatable .recaptcha_r4_c1{background:url(http://www.google.com/recaptcha/api/img/white/sprite.png) -43px 0 no-repeat;width:171px;height:49px}.recaptchatable .recaptcha_r4_c2{background:url(http://www.google.com/recaptcha/api/img/white/sprite.png) -36px 0 no-repeat;width:7px;height:57px}.recaptchatable .recaptcha_r4_c4{background:url(http://www.google.com/recaptcha/api/img/white/sprite.png) -214px 0 no-repeat;width:97px;height:57px}.recaptchatable .recaptcha_r7_c1{background:url(http://www.google.com/recaptcha/api/img/white/sprite.png) -43px -49px no-repeat;width:171px;height:8px}.recaptchatable .recaptcha_r8_c1{background:url(http://www.google.com/recaptcha/api/img/white/sprite.png) -43px -49px no-repeat;width:25px;height:8px}.recaptchatable .recaptcha_image_cell center img{height:57px}.recaptchatable .recaptcha_image_cell center{height:57px}.recaptchatable .recaptcha_image_cell{background-color:white;height:57px}#recaptcha_area,#recaptcha_table{width:318px!important}.recaptchatable,#recaptcha_area tr,#recaptcha_area td,#recaptcha_area th{margin:0!important;border:0!important;padding:0!important;border-collapse:collapse!important;vertical-align:middle!important}.recaptchatable *{margin:0;padding:0;border:0;font-family:helvetica,sans-serif;font-size:8pt;color:black;position:static;top:auto;left:auto;right:auto;bottom:auto;text-align:left!important}.recaptchatable #recaptcha_image{margin:auto}.recaptchatable img{border:0!important;margin:0!important;padding:0!important}.recaptchatable a,.recaptchatable a:hover{outline:none;border:0!important;padding:0!important;text-decoration:none;color:blue;background:none!important;font-weight:normal}.recaptcha_input_area{position:relative!important;width:146px!important;height:45px!important;margin-left:20px!important;margin-right:5px!important;margin-top:4px!important;background:none!important}.recaptchatable label.recaptcha_input_area_text{margin:0!important;padding:0!important;position:static!important;top:auto!important;left:auto!important;right:auto!important;bottom:auto!important;background:none!important;height:auto!important;width:auto!important}.recaptcha_theme_red label.recaptcha_input_area_text,.recaptcha_theme_white label.recaptcha_input_area_text{color:black!important}.recaptcha_theme_blackglass label.recaptcha_input_area_text{color:white!important}.recaptchatable #recaptcha_response_field{width:145px!important;position:absolute!important;bottom:7px!important;padding:0!important;margin:0!important;font-size:10pt}.recaptcha_theme_blackglass #recaptcha_response_field,.recaptcha_theme_white #recaptcha_response_field{border:1px solid gray}.recaptcha_theme_red #recaptcha_response_field{border:1px solid #cca940}.recaptcha_audio_cant_hear_link{font-size:7pt;color:black}.recaptchatable{line-height:1em}#recaptcha_instructions_error{color:red!important}
+
+.recaptcha_is_showing_audio .recaptcha_only_if_image,.recaptcha_isnot_showing_audio .recaptcha_only_if_audio,.recaptcha_had_incorrect_sol .recaptcha_only_if_no_incorrect_sol,.recaptcha_nothad_incorrect_sol .recaptcha_only_if_incorrect_sol{display:none !important}</style></head><style type="text/css" style="display: none !important; ">/*This block of style rules is inserted by AdBlock*/#FFN_Banner_Holder,#FFN_imBox_Container,#RadAd_Skyscraper,#ab_pointer,#adxLeaderboard,#bbccom_leaderboard,#center_banner,#dir_ads_site,#flashad,#footer_adcode,#hbBHeaderSpon,#hiddenHeaderSpon,#navbar_adcode,#p360-format-box,#rightAds,#rightcolumn_adcode,#rm_container,#tads table[align="center"][width="100%"],#tooltipbox[class^="itxt"],#top-advertising,#topMPU,#tracker_advertorial,#ve_threesixty_swf[name="ve_threesixty_swf"],.ad-now,.ad_marquee,.dfpad,.kLink span[id^="preLoadWrap"].preLoadWrap,.prWrap,[id^="ad_block"],[id^="adbrite"],[id^="dclkAds"],[id^="ew"][id$="_bannerDiv"],[id^="konaLayer"],[src*="sixsigmatraffic.com"],a[href^="http://ad."][href*=".doubleclick.net/"],a[href^="http://adserver.adpredictive.com"],div[class^="dms_ad_IDS"],div[id^="adKontekst_"],div[id^="google_ads_div"],div[id^="kona_"][id$="_wrapper"],div[id^="sponsorads"],div[id^="y5_direct"],embed[flashvars*="AdID"],iframe[id^="dapIfM"],iframe[id^="etarget"][id$="banner"],iframe[name^="AdBrite"],iframe[name^="google_ads_"],img[src^="http://cdn.adnxs.com"],script[src="//pagead2.googleadservices.com/pagead/show_ads.js"] + ins > ins > iframe,script[src="http://pagead2.googlesyndication.com/pagead/show_ads.js"] + ins > ins > iframe,table[cellpadding="0"][width="100%"] > * > * > * > div[id^="tpa"],#A9AdsMiddleBoxTop,#A9AdsOutOfStockWidgetTop,#A9AdsServicesWidgetTop,#ADNETwallBanner1,#ADNETwallBanner2,#ADSLOT_1,#ADSLOT_2,#ADSLOT_3,#ADSLOT_4,#ADSLOT_SKYSCRAPER,#ADVERTISE_HERE_ROW,#AD_CONTROL_22,#AD_CONTROL_28,#AD_CONTROL_29,#AD_CONTROL_8,#AD_ROW,#AD_Top,#AD_newsblock,#ADgoogle_newsblock,#ADsmallWrapper,#Ad160x600,#Ad300x250,#Ad3Left,#Ad3Right,#Ad3TextAd,#AdArea,#AdBanner_F1,#AdBar,#AdBar1,#AdBox2,#AdContainer,#AdContainerTop,#AdContentModule_F,#AdDetails_GoogleLinksBottom,#AdDetails_InsureWith,#AdFrame4,#AdHeader,#AdLeaderboardBottom,#AdLeaderboardTop,#AdMiddle,#AdMobileLink,#AdPopUp,#AdRectangle,#AdSenseDiv,#AdSenseResults1_adSenseSponsorDiv,#AdServer,#AdShowcase_F1,#AdSky23,#AdSkyscraper,#AdSpacing,#AdSponsor_SF,#AdSubsectionShowcase_F1,#AdTargetControl1_iframe,#AdTop,#AdTopLeader,#Ad_BelowContent,#Ad_Block,#Ad_Center1,#Ad_Right1,#Ad_RightBottom,#Ad_RightTop,#Ad_Top,#Adbanner,#Adrectangle,#AdsContent,#AdsRight,#AdsWrap,#Ads_BA_CAD,#Ads_BA_CAD2,#Ads_BA_CAD_box,#Ads_BA_SKY,#Ads_CAD,#Ads_OV_BS,#Ads_Special,#AdvertMPU23b,#AdvertPanel,#AdvertiseFrame,#Advertisement,#Advertisements,#Advertorial,#Advertorials,#AdvertsBottom,#AdvertsBottomR,#BANNER_160x600,#BANNER_300x250,#BANNER_728x90,#BannerAd,#BannerAdvert,#BigBoxAd,#BodyAd,#BotAd,#Bottom468x60AD,#ButtonAd,#ClickPop_LayerPop_Container,#CompanyDetailsNarrowGoogleAdsPresentationControl,#CompanyDetailsWideGoogleAdsPresentationControl,#ContentAd,#ContentAd1,#ContentAd2,#ContentAdPlaceHolder1,#ContentAdPlaceHolder2,#ContentAdXXL,#ContentPolepositionAds_Result,#CornerAd,#DartAd300x250,#DivAdEggHeadCafeTopBanner,#FIN_videoplayer_300x250ad,#FooterAd,#FooterAdContainer,#GOOGLE_ADS_47,#GoogleAd1,#GoogleAd2,#GoogleAd3,#GoogleAdsPlaceHolder,#GoogleAdsPresentationControl,#GoogleAdsense,#Google_Adsense_Main,#HEADERAD,#HOME_TOP_RIGHT_BOXAD,#HeaderAD,#HeaderAdsBlock,#HeaderAdsBlockFront,#HeaderBannerAdSpacer,#HeaderTextAd,#HeroAd,#HomeAd1,#HouseAd,#ID_Ad_Sky,#JobsearchResultsAds,#Journal_Ad_125,#Journal_Ad_300,#JuxtapozAds,#KH-contentAd,#LargeRectangleAd,#LeftAd,#LeftAd1,#LeftAdF1,#LeftAdF2,#LftAd,#LoungeAdsDiv,#LowerContentAd,#MPUAdSpace,#MainSponsoredLinks,#Meebo\:AdElement\.Root,#Nightly_adContainer,#NormalAdModule,#OpenXAds,#OverrideAdArea,#PREFOOTER_LEFT_BOXAD,#PREFOOTER_RIGHT_BOXAD,#PageLeaderAd,#PreRollAd,#RelevantAds,#RgtAd1,#RightAd,#RightBottom300x250AD,#RightNavTopAdSpot,#RightSponsoredAd,#SectionAd300-250,#SectionSponsorAd,#SideAdMpu,#SidebarAdContainer,#SkyAd,#SpecialAds,#SponsoredAd,#SponsoredLinks,#TL_footer_advertisement,#TOP_ADROW,#TOP_RIGHT_BOXAD,#Tadspacefoot,#Tadspacehead,#Tadspacemrec,#TextLinkAds,#ThreadAd,#Top468x60AD,#TopAd,#TopAdBox,#TopAdContainer,#TopAdDiv,#TopAdPos,#TopBannerAd,#VM-MPU-adspace,#VM-footer-adspace,#VM-header-adspace,#VM-header-adwrap,#XEadLeaderboard,#XEadSkyscraper,#YahooAdParentContainer,#_ads,#abHeaderAdStreamer,#about_adsbottom,#abovepostads,#ad-1000x90-1,#ad-120x600-sidebar,#ad-120x60Div,#ad-160x600,#ad-160x600-sidebar,#ad-250,#ad-250x300,#ad-300,#ad-300x250,#ad-300x250-1,#ad-300x250-sidebar,#ad-300x250Div,#ad-300x60-1,#ad-376x280,#ad-728,#ad-728x90,#ad-728x90-1,#ad-728x90-leaderboard-top,#ad-728x90-top0,#ad-ads,#ad-article,#ad-banner,#ad-banner-1,#ad-bigbox,#ad-billboard-bottom,#ad-block-125,#ad-bottom,#ad-bottom-wrapper,#ad-box,#ad-box-first,#ad-box-second,#ad-boxes,#ad-bs,#ad-buttons,#ad-colB-1,#ad-column,#ad-container,#ad-content,#ad-contentad,#ad-first-post,#ad-flex-first,#ad-footer,#ad-footprint-160x600,#ad-frame,#ad-front-footer,#ad-front-sponsoredlinks,#ad-fullbanner2,#ad-globalleaderboard,#ad-halfpage,#ad-header,#ad-header-728x90,#ad-horizontal-header,#ad-img,#ad-inner,#ad-label,#ad-leaderboard,#ad-leaderboard-1-container,#ad-leaderboard-bottom,#ad-leaderboard-container,#ad-leaderboard-spot,#ad-leaderboard-top,#ad-left,#ad-left-sidebar-ad-1,#ad-left-sidebar-ad-2,#ad-left-sidebar-ad-3,#ad-links-content,#ad-list-row,#ad-lrec,#ad-medium,#ad-medium-rectangle,#ad-medrec,#ad-middlethree,#ad-middletwo,#ad-module,#ad-mpu,#ad-mpu1-spot,#ad-mpu2,#ad-mpu2-spot,#ad-north,#ad-one,#ad-placard,#ad-placeholder,#ad-rectangle,#ad-right,#ad-right-sidebar-ad-1,#ad-right-sidebar-ad-2,#ad-righttop,#ad-row,#ad-side,#ad-side-text,#ad-sidebar,#ad-sky,#ad-skyscraper,#ad-slot-right,#ad-slug-wrapper,#ad-small-banner,#ad-space,#ad-special,#ad-splash,#ad-sponsors,#ad-spot,#ad-squares,#ad-story-bottom-out,#ad-story-right,#ad-target,#ad-target-Leaderbord,#ad-teaser,#ad-text,#ad-top,#ad-top-banner,#ad-top-text-low,#ad-top-wrap,#ad-tower,#ad-trailerboard-spot,#ad-two,#ad-typ1,#ad-unit,#ad-wrap,#ad-wrap-right,#ad-wrapper,#ad-wrapper1,#ad-yahoo-simple,#ad-zone-1,#ad-zone-2,#ad-zone-inline,#ad01,#ad02,#ad1006,#ad11,#ad125BL,#ad125BR,#ad125TL,#ad125TR,#ad125x125,#ad160x600,#ad160x600right,#ad1Sp,#ad2Sp,#ad300,#ad300-250,#ad300X250,#ad300_x_250,#ad300x100Middle,#ad300x150,#ad300x250,#ad300x250Module,#ad300x60,#ad300x600,#ad300x600_callout,#ad336,#ad336x280,#ad375x85,#ad468,#ad468x60,#ad468x60_top,#ad526x250,#ad600,#ad728,#ad728Mid,#ad728Top,#ad728Wrapper,#ad728top,#ad728x90,#ad728x90_1,#ad90,#adBadges,#adBanner,#adBanner10,#adBanner120x600,#adBanner160x600,#adBanner2,#adBanner3,#adBanner336x280,#adBanner4,#adBanner728,#adBanner9,#adBannerTable,#adBannerTop,#adBar,#adBelt,#adBlock125,#adBlockTop,#adBlocks,#adBottbanner,#adBox,#adBox11,#adBox16,#adBox350,#adBox390,#adCirc300X200,#adCirc_620_100,#adCol,#adColumn,#adCompanionSubstitute,#adComponentWrapper,#adContainer,#adContainer_1,#adContainer_2,#adContainer_3,#adDiv,#adDiv300,#adDiv728,#adFiller,#adFps,#adFtofrs,#adGallery,#adGoogleText,#adGroup1,#adHeader,#adHeaderTop,#adIsland,#adLB,#adLabel,#adLayer,#adLeader,#adLeaderTop,#adLeaderboard,#adMPU,#adMediumRectangle,#adMiddle0Frontpage,#adMiniPremiere,#adMonster1,#adOuter,#adPlaceHolderRight,#adPlacer,#adPosOne,#adRight,#adRight2,#adSPLITCOLUMNTOPRIGHT,#adSenseModule,#adSenseWrapper,#adServer_marginal,#adShortTower,#adSidebar,#adSidebarSq,#adSky,#adSkyscraper,#adSlider,#adSpace,#adSpace0,#adSpace1,#adSpace10,#adSpace11,#adSpace12,#adSpace13,#adSpace14,#adSpace15,#adSpace16,#adSpace17,#adSpace18,#adSpace19,#adSpace2,#adSpace20,#adSpace21,#adSpace22,#adSpace23,#adSpace24,#adSpace25,#adSpace3,#adSpace300_ifrMain,#adSpace4,#adSpace5,#adSpace6,#adSpace7,#adSpace8,#adSpace9,#adSpace_footer,#adSpace_right,#adSpace_top,#adSpacer,#adSpecial,#adSplotlightEm,#adSpot-Leader,#adSpot-banner,#adSpot-island,#adSpot-mrec1,#adSpot-sponsoredlinks,#adSpot-textbox1,#adSpot-widestrip,#adSpotAdvertorial,#adSpotIsland,#adSpotSponsoredLinks,#adSquare,#adStaticA,#adStrip,#adSuperAd,#adSuperPremiere,#adSuperSkyscraper,#adSuperbanner,#adTableCell,#adTag1,#adTag2,#adText,#adTextCustom,#adTextLink,#adText_container,#adTile,#adTop,#adTopContent,#adTopbanner,#adTopboxright,#adTower,#adUnit,#adWrapper,#adZoneTop,#ad_1,#ad_130x250_inhouse,#ad_160x160,#ad_160x600,#ad_190x90,#ad_2,#ad_3,#ad_300,#ad_300_250,#ad_300_250_1,#ad_300a,#ad_300b,#ad_300c,#ad_300x100_m_c,#ad_300x250,#ad_300x250_content_column,#ad_300x250_m_c,#ad_300x250m,#ad_300x90,#ad_4,#ad_468_60,#ad_468x60,#ad_5,#ad_728_foot,#ad_728x90,#ad_728x90_container,#ad_940,#ad_984,#ad_A,#ad_B,#ad_Banner,#ad_C,#ad_C2,#ad_D,#ad_E,#ad_F,#ad_G,#ad_H,#ad_I,#ad_J,#ad_K,#ad_L,#ad_M,#ad_N,#ad_O,#ad_P,#ad_YieldManager-300x250,#ad_YieldManager-728x90,#ad_adsense,#ad_after_navbar,#ad_anchor,#ad_area,#ad_banner,#ad_bannerManage_1,#ad_banner_top,#ad_banners,#ad_bar,#ad_bellow_post,#ad_bigsize_wrapper,#ad_block_1,#ad_block_2,#ad_bottom,#ad_box,#ad_box_colspan,#ad_box_top,#ad_branding,#ad_bs_area,#ad_buttons,#ad_center_monster,#ad_circ300x250,#ad_cna2,#ad_cont,#ad_container,#ad_container_0,#ad_container_marginal,#ad_container_side,#ad_container_sidebar,#ad_container_top,#ad_content_top,#ad_content_wrap,#ad_feature,#ad_firstpost,#ad_footer,#ad_frame,#ad_front_three,#ad_fullbanner,#ad_gallery,#ad_global_header,#ad_h3,#ad_haha_1,#ad_haha_4,#ad_halfpage,#ad_head,#ad_header,#ad_holder,#ad_horizontal,#ad_horseshoe_left,#ad_horseshoe_right,#ad_horseshoe_spacer,#ad_horseshoe_top,#ad_hotpots,#ad_in_arti,#ad_island,#ad_label,#ad_large_rectangular,#ad_lastpost,#ad_layer,#ad_layer2,#ad_leader,#ad_leaderBoard,#ad_leaderboard,#ad_leaderboard728x90,#ad_leaderboard_top,#ad_left,#ad_lnk,#ad_lrec,#ad_lwr_square,#ad_main,#ad_medium_rectangle,#ad_medium_rectangular,#ad_mediumrectangle,#ad_menu_header,#ad_message,#ad_middle,#ad_most_pop_234x60_req_wrapper,#ad_mpu,#ad_mpu300x250,#ad_mpuav,#ad_mrcontent,#ad_newsletter,#ad_overlay,#ad_place,#ad_play_300,#ad_rect,#ad_rect_body,#ad_rect_bottom,#ad_rectangle,#ad_rectangle_medium,#ad_related_links_div,#ad_related_links_div_program,#ad_replace_div_0,#ad_replace_div_1,#ad_report_leaderboard,#ad_report_rectangle,#ad_results,#ad_right,#ad_right_main,#ad_ros_tower,#ad_rr_1,#ad_script_head,#ad_sec,#ad_sec_div,#ad_sgd,#ad_sidebar,#ad_sidebar1,#ad_sidebar2,#ad_sidebar3,#ad_sky,#ad_skyscraper,#ad_skyscraper160x600,#ad_skyscraper_text,#ad_slot_leaderboard,#ad_slot_livesky,#ad_slot_sky_top,#ad_space,#ad_square,#ad_ss,#ad_table,#ad_term_bottom_place,#ad_text:not(textarea),#ad_thread_first_post_content,#ad_top,#ad_top_holder,#ad_tp_banner_1,#ad_tp_banner_2,#ad_txt,#ad_unit,#ad_vertical,#ad_wide,#ad_wide_box,#ad_widget,#ad_window,#ad_wrap,#ad_wrapper,#adaptvcompanion,#adbForum,#adbanner,#adbar,#adbig,#adbnr,#adboard,#adbody,#adbottom,#adbox,#adbox1,#adbox2,#adbutton,#adclear,#adcode,#adcode1,#adcode2,#adcode3,#adcode4,#adcolumnwrapper,#adcontainer,#adcontainer1,#adcontainerRight,#adcontainsm,#adcontent,#adcontent1,#adcontrolPushSite,#add_ciao2,#addbottomleft,#addiv-bottom,#addiv-top,#adfooter,#adfooter_728x90,#adframe:not(frameset),#adhead,#adhead_g,#adheader,#adhome,#adiframe1_iframe,#adiframe2_iframe,#adiframe3_iframe,#adimg,#adition_content_ad,#adlabel,#adlabelFooter,#adlayer,#adlayerContainer,#adlayer_back,#adlayerad,#adleaderboard,#adleaderboard_flex,#adleaderboardb,#adleaderboardb_flex,#adleft,#adlinks,#adlinkws,#adlrec,#admanager_leaderboard,#admid,#admiddle3center,#admiddle3left,#adposition,#adposition-C,#adposition-FPMM,#adposition1,#adposition2,#adposition3,#adposition4,#adrectangle,#adrectanglea,#adrectanglea_flex,#adrectangleb,#adrectangleb_flex,#adrig,#adright,#adright2,#adrighthome,#ads-250,#ads-468,#ads-area,#ads-block,#ads-bot,#ads-bottom,#ads-col,#ads-dell,#ads-footer,#ads-footer-inner,#ads-horizontal,#ads-indextext,#ads-leaderboard1,#ads-lrec,#ads-main,#ads-menu,#ads-middle,#ads-prices,#ads-rhs,#ads-right,#ads-sponsored-boxes,#ads-top,#ads-vers7,#ads-wrapper,#ads120,#ads125,#ads160left,#ads300,#ads300-250,#ads300Bottom,#ads300Top,#ads315,#ads336x280,#ads728,#ads728bottom,#ads728top,#ads790,#adsBox-460_left,#adsBox-dynamic-right,#adsBoxResultsPage,#adsContent,#adsDisplay,#adsDiv1,#adsDiv2,#adsDiv3,#adsDiv4,#adsDiv5,#adsDiv6,#adsDiv7,#adsHeader,#adsID,#ads_160,#ads_300,#ads_728,#ads_banner,#ads_belowforumlist,#ads_belownav,#ads_bottom,#ads_bottom_inner,#ads_bottom_outer,#ads_box,#ads_button,#ads_catDiv,#ads_container,#ads_footer,#ads_fullsize,#ads_halfsize,#ads_header,#ads_html1,#ads_html2,#ads_inner,#ads_lb,#ads_medrect,#ads_notice,#ads_right,#ads_right_sidebar,#ads_sidebar_roadblock,#ads_space,#ads_text,#ads_top,#ads_topbanner,#ads_watch_top_square,#ads_zone27,#adsbottom,#adsbox,#adsbox-left,#adsbox-right,#adscolumn,#adsd_contentad_r1,#adsd_contentad_r2,#adsd_contentad_r3,#adsd_topbanner,#adsd_txt_sky,#adsdiv,#adsection,#adsense,#adsense-2,#adsense-header,#adsense-new,#adsense-tag,#adsense-text,#adsense03,#adsense04,#adsense05,#adsense1,#adsenseLeft,#adsenseOne,#adsenseWrap,#adsense_article_left,#adsense_block,#adsense_box,#adsense_box_video,#adsense_inline,#adsense_leaderboard,#adsense_overlay,#adsense_placeholder_2,#adsenseheader,#adsensetopplay,#adsensewidget-3,#adserv,#adshometop,#adsimage,#adskinlink,#adsky,#adskyscraper,#adslider,#adslot,#adsmiddle,#adsonar,#adspace,#adspace-1,#adspace-300x250,#adspace-leaderboard-top,#adspace300x250,#adspaceBox,#adspaceBox300,#adspace_header,#adspace_leaderboard,#adspacer,#adsponsorImg,#adspot,#adspot-1,#adspot-149x170,#adspot-1x4,#adspot-2,#adspot-295x60,#adspot-2a,#adspot-2b,#adspot-300x110-pos-1,#adspot-300x125,#adspot-300x250-pos-1,#adspot-300x250-pos-2,#adspot-468x60-pos-2,#adspot-a,#adspot300x250,#adspot_220x90,#adspot_300x250,#adspot_468x60,#adspot_728x90,#adsquare,#adsright,#adstop,#adtab,#adtag_right_side,#adtagfooter,#adtagheader,#adtagrightcol,#adtaily-widget-light,#adtech_0,#adtech_1,#adtech_2,#adtech_3,#adtech_googleslot_03c,#adtech_takeover,#adtext,#adtop,#adtophp,#adtxt,#adv-300,#adv-leaderboard,#adv-left,#adv-masthead,#adv-middle,#adv-mpux,#adv-x36,#adv-x37,#adv-x38,#adv-x39,#adv-x40,#adv1,#adv300bottom { display:none !important; } #adv300top,#adv728,#adv_300,#adv_728,#adv_border,#adv_google_300,#adv_google_728,#adv_halfpage,#adv_halfpage_title,#adv_leaderboard,#adv_sky,#adv_top_banner_wrapper,#adver1,#adver2,#adver3,#adver4,#adver5,#adver6,#adver7,#advert-1,#advert-120,#advert-boomer,#advert-display,#advert-header,#advert-leaderboard,#advert-links-bottom,#advert-skyscraper,#advert-top,#advert1,#advertBanner,#advertContainer,#advertDB,#advertRight,#advertSection,#advert_125x125,#advert_250x250,#advert_box,#advert_home01,#advert_leaderboard,#advert_lrec_format,#advert_mid,#advert_mpu,#advert_mpu_1,#advert_right_skyscraper,#advert_sky,#advertbox,#advertbox2,#advertbox3,#advertbox4,#adverthome,#advertise,#advertise-here,#advertise-here-sidebar,#advertise-now,#advertise1,#advertiseHere,#advertisement1,#advertisement160x600,#advertisement3,#advertisement728x90,#advertisementHorizontal,#advertisementLigatus,#advertisementPrio2,#advertisementRight,#advertisementRightcolumn0,#advertisementRightcolumn1,#advertisementsarticle,#advertiser-container,#advertiserLinks,#advertisers,#advertising,#advertising-banner,#advertising-caption,#advertising-container,#advertising-control,#advertising-skyscraper,#advertising-top,#advertising2,#advertisingModule160x600,#advertisingModule728x90,#advertisingTopWrapper,#advertising_btm,#advertising_contentad,#advertising_horiz_cont,#advertisment,#advertismentElementInUniversalbox,#advertorial,#advertorial_red_listblock,#adverts,#adverts-top-container,#adverts-top-left,#adverts-top-middle,#adverts-top-right,#advertsingle,#advertspace,#advheader,#advsingle,#advt,#advtext,#advtop,#adwhitepaperwidget,#adwin_rec,#adwith,#adwords-4-container,#adwrapper,#adxBigAd,#adxMiddle5,#adxSponLink,#adxSponLinkA,#adxtop,#adxtop2,#adzbanner,#adzerk,#adzerk1,#adzerk2,#adzone,#adzoneBANNER,#adzoneheader,#afc-container,#affinityBannerAd,#after-content-ads,#after-header-ad-left,#after-header-ad-right,#after-header-ads,#agi-ad300x250,#agi-ad300x250overlay,#agi-sponsored,#alert_ads,#anchorAd,#annoying_ad,#ap_adframe,#ap_cu_overlay,#ap_cu_wrapper,#apiBackgroundAd,#apiTopAdWrap,#apmNADiv,#apolload,#araHealthSponsorAd,#area-adcenter,#area1ads,#article-ad,#article-ad-container,#article-box-ad,#articleAdReplacement,#articleLeftAdColumn,#articleSideAd,#article_ad,#article_ad_container,#article_box_ad,#articlead1,#articlead2,#asideads,#asinglead,#atlasAdDivGame,#awds-nt1-ad,#babAdTop,#banner-300x250,#banner-ad,#banner-ad-container,#banner-ads,#banner250x250,#banner300x250,#banner468x60,#banner728x90,#bannerAd,#bannerAdTop,#bannerAdWrapper,#bannerAd_ctr,#bannerAd_rdr,#banner_160x600,#banner_300_250,#banner_ad,#banner_ad_footer,#banner_ad_module,#banner_admicro,#banner_ads,#banner_advertisement,#banner_content_ad,#banner_topad,#bannerad,#bannerad2,#baseAdvertising,#basket-adContainer,#bbccom_mpu,#bbo_ad1,#bg-footer-ads,#bg-footer-ads2,#bg_YieldManager-160x600,#bg_YieldManager-300x250,#bg_YieldManager-728x90,#bigAd,#bigBoxAd,#bigad300outer,#bigadbox,#bigadframe,#bigadspot,#billboard_ad,#block-ad_cube-1,#block-openads-0,#block-openads-1,#block-openads-2,#block-openads-3,#block-openads-4,#block-openads-5,#block-spti_ga-spti_ga_adwords,#block-thewrap_ads_250x300-0,#block_advert,#block_advertisement,#blog-ad,#blog_ad_content,#blog_ad_opa,#blog_ad_right,#blog_ad_top,#blox-big-ad,#blox-big-ad-bottom,#blox-big-ad-top,#blox-halfpage-ad,#blox-tile-ad,#blox-tower-ad,#body_728_ad,#book-ad,#botad,#bott_ad2,#bott_ad2_300,#bottom-ad,#bottom-ad-container,#bottom-ad-tray,#bottom-ad-wrapper,#bottom-ads,#bottomAd,#bottomAdCCBucket,#bottomAdContainer,#bottomAdSense,#bottomAdSenseDiv,#bottomAds,#bottomAdvBox,#bottomContentAd,#bottomRightAd,#bottomRightAdSpace,#bottom_ad,#bottom_ad_area,#bottom_ad_unit,#bottom_ads,#bottom_banner_ad,#bottom_overture,#bottom_sponsor_ads,#bottom_sponsored_links,#bottom_text_ad,#bottomad,#bottomads,#bottomadsense,#bottomadwrapper,#bottomleaderboardad,#box-ad-section,#box-ads-small-1,#box-ads-small-2,#box-content-ad,#box-googleadsense-1,#box-googleadsense-r,#box1ad,#boxAd300,#boxAdContainer,#boxAdvert,#box_ad,#box_advertisment,#box_mod_googleadsense,#boxad1,#boxad2,#boxad3,#boxad4,#boxad5,#boxads,#bpAd,#bps-header-ad-container,#btnAds,#btnads,#btr_horiz_ad,#burn_header_ad,#button-ads-horizontal,#button-ads-vertical,#buttonAdWrapper1,#buttonAdWrapper2,#buttonAds,#buttonAdsContainer,#button_ad_container,#button_ad_wrap,#button_ads,#buttonad,#buy-sell-ads,#c4ad-Middle1,#c_ad_sb,#c_ad_sky,#caAdLarger,#catad,#category-ad,#cellAd,#channel_ad,#channel_ads,#ciHomeRHSAdslot,#circ_ad,#closeable-ad,#cmn_ad_box,#cmn_toolbar_ad,#cnnAboveFoldBelowAd,#cnnRR336ad,#cnnSponsoredPods,#cnnTopAd,#cnnVPAd,#col3_advertising,#colAd,#colRightAd,#collapseobj_adsection,#column4-google-ads,#comments-ad-container,#commercial_ads,#common_right_ad_wrapper,#common_right_lower_ad_wrapper,#common_right_lower_adspace,#common_right_lower_player_ad_wrapper,#common_right_lower_player_adspace,#common_right_player_ad_wrapper,#common_right_player_adspace,#common_right_right_adspace,#common_top_adspace,#comp_AdsLeaderboardTop,#companion-ad,#companionAd,#companionAdDiv,#companionad,#container-righttopads,#container-topleftads,#containerLocalAds,#containerLocalAdsInner,#containerMrecAd,#containerSqAd,#content-ad-header,#content-header-ad,#content-left-ad,#content-right-ad,#contentAd,#contentBoxad,#contentTopAds2,#content_ad,#content_ad_square,#content_ad_top,#content_ads_content,#content_box_300body_sponsoredoffers,#content_box_adright300_google,#content_lower_center_right_ad,#content_mpu,#contentad,#contentad_imtext,#contentad_right,#contentads,#contentinlineAd,#contents_post_ad,#contextad,#contextual-ads,#contextual-ads-block,#contextualad,#coverADS,#coverads,#ctl00_Adspace_Top_Height,#ctl00_BottomAd,#ctl00_ContentMain_BanManAd468_BanManAd,#ctl00_ContentPlaceHolder1_blockAdd_divAdvert,#ctl00_ContentRightColumn_RightColumn_Ad1_BanManAd,#ctl00_ContentRightColumn_RightColumn_Ad2_BanManAd,#ctl00_ContentRightColumn_RightColumn_PremiumAd1_ucBanMan_BanManAd,#ctl00_LHTowerAd,#ctl00_LeftHandAd,#ctl00_MasterHolder_IBanner_adHolder,#ctl00_TopAd,#ctl00_TowerAd,#ctl00_VBanner_adHolder,#ctl00__Content__RepeaterReplies_ctl03__AdReply,#ctl00_abot_bb,#ctl00_adFooter,#ctl00_advert_LargeMPU_div_AdPlaceHolder,#ctl00_atop_bt,#ctl00_cphMain_hlAd1,#ctl00_cphMain_hlAd2,#ctl00_cphMain_hlAd3,#ctl00_ctl00_MainPlaceHolder_itvAdSkyscraper,#ctl00_ctl00_ctl00_Main_Main_PlaceHolderGoogleTopBanner_MPTopBannerAd,#ctl00_ctl00_ctl00_Main_Main_SideBar_MPSideAd,#ctl00_dlTilesAds,#ctl00_m_skinTracker_m_adLBL,#ctl00_phCrackerMain_ucAffiliateAdvertDisplayMiddle_pnlAffiliateAdvert,#ctl00_phCrackerMain_ucAffiliateAdvertDisplayRight_pnlAffiliateAdvert,#ctl00_topAd,#ctrlsponsored,#cubeAd,#cube_ads,#cube_ads_inner,#cubead,#cubead-2,#currencies-sponsored-by,#custom-advert-leadboard-spacer,#dAdverts,#dItemBox_ads,#dart_160x600,#dc-display-right-ad-1,#dcadSpot-Leader,#dcadSpot-LeaderFooter,#dcol-sponsored,#defer-adright,#detail_page_vid_topads,#div-gpt-ad-1,#div-gpt-ad-2,#div-gpt-ad-3,#div-gpt-ad-4,#divAd,#divAdBox,#divAdWrapper,#divAdvertisement,#divBottomad1,#divBottomad2,#divDoubleAd,#divLeftAd12,#divLeftRecAd,#divMenuAds,#divWNAdHeader,#divWrapper_Ad,#div_ad_leaderboard,#div_video_ads,#dlads,#dni-header-ad,#dnn_adLeaderBoard2008,#dnn_ad_banner,#download_ads,#dp_ads1,#ds-mpu,#ds_ad_north_leaderboard,#editorsmpu,#em_ad_superbanner,#embedded-ad,#evotopTen_advert,#ex-ligatus,#exads,#extra-search-ads,#fb_adbox,#fb_rightadpanel,#featAds,#featuread,#featured-advertisements,#featuredAdContainer2,#featuredAds,#featured_ad_links,#feed_links_ad_container,#file_sponsored_link,#first-300-ad,#first-adlayer,#first_ad_unit,#firstad,#flAdData6,#fl_hdrAd,#flash_ads_1,#flexiad,#floatingAd,#floating_ad_container,#foot-ad-1,#footad,#footer-ad,#footer-ads,#footer-advert,#footer-adverts,#footer-sponsored,#footerAd,#footerAdDiv,#footerAds,#footerAdvertisement,#footerAdverts,#footer_ad,#footer_ad_01,#footer_ad_block,#footer_ad_container,#footer_ad_modules,#footer_ads,#footer_adspace,#footer_text_ad,#footerad,#footerads,#footeradsbox,#forum_top_ad,#four_ads,#fpad1,#fpad2,#fpv_companionad,#fr_ad_center,#frame_admain,#frnAdSky,#frnBannerAd,#frnContentAd,#front_ad728,#front_advert,#front_mpu,#ft-ad,#ft-ad-1,#ft-ad-container,#ft_mpu,#fullsizebanner_468x60,#fusionad,#fw-advertisement,#g_ad,#g_adsense,#ga_300x250,#galleries-tower-ad,#gallery-ad,#gallery-ad-m0,#gallery-random-ad,#gallery_ads,#game-info-ad,#gamead,#gameads,#gasense,#gglads,#global_header_ad_area,#gm-ad-lrec,#gmi-ResourcePageAd,#gmi-ResourcePageLowerAd,#goad1,#goads,#gooadtop,#google-ad,#google-ad-art,#google-ad-table-right,#google-ad-tower,#google-ads,#google-ads-bottom,#google-ads-header,#google-ads-left-side,#google-adsense-mpusize,#googleAd,#googleAdArea,#googleAds,#googleAdsSml,#googleAdsense,#googleAdsenseBanner,#googleAdsenseBannerBlog,#googleAdwordsModule,#googleAfcContainer,#googleSearchAds,#googleShoppingAdsRight,#googleShoppingAdsTop,#googleSubAds,#google_ad,#google_ad_container,#google_ad_inline,#google_ad_test,#google_ads,#google_ads_aCol,#google_ads_frame1,#google_ads_frame1_anchor,#google_ads_frame2,#google_ads_frame2_anchor,#google_ads_frame3,#google_ads_frame3_anchor,#google_ads_test,#google_ads_top,#google_adsense_home_468x60_1,#googlead,#googlead-sidebar-middle,#googlead-sidebar-top,#googlead2,#googleadbox,#googleads,#googleads_mpu_injection,#googleadsense,#googlesponsor,#gpt-ad-halfpage,#gpt-ad-rectangle1,#gpt-ad-rectangle2,#gpt-ad-skyscraper,#gpt-ad-story_rectangle3,#grid_ad,#gsyadrectangleload,#gsyadrightload,#gsyadtop,#gsyadtopload,#gtopadvts,#half-page-ad,#halfPageAd,#halfe-page-ad-box,#hd-ads,#hd-banner-ad,#hdtv_ad_ss,#head-ad,#head-ad-1,#head-banner468,#headAd,#head_ad,#head_advert,#headad,#header-ad,#header-ad-left,#header-ad-rectangle-container,#header-ad-right,#header-ad2010,#header-ads,#header-adspace,#header-advert,#header-advertisement,#header-advertising,#header-adverts,#header-banner-ad,#headerAd,#headerAdBackground,#headerAdContainer,#headerAdWrap,#headerAds,#headerAdsWrapper,#headerTopAd,#header_ad,#header_ad_728_90,#header_ad_container,#header_adcode,#header_ads,#header_advertisement_top,#header_flag_ad,#header_leaderboard_ad_container,#header_publicidad,#headerad,#headeradbox,#headerads,#headeradsbox,#headeradvertholder,#headeradwrap,#headline_ad,#headlinesAdBlock,#hiddenadAC,#hideads,#hl-sponsored-results,#hly_ad_side_bar_tower_left,#hly_inner_page_google_ad,#home-advert-module,#home-rectangle-ad,#home-top-ads,#homeMPU,#homeTopRightAd,#home_ad,#home_bottom_ad,#home_contentad,#home_feature_ad,#home_lower_center_right_ad,#home_mpu,#home_spensoredlinks,#homead,#homepage-ad,#homepageAdsTop,#homepageFooterAd,#homepage_right_ad,#homepage_right_ad_container,#homepage_top_ads,#hometop_234x60ad,#hor_ad,#horizad,#horizontal-banner-ad,#horizontal_ad,#horizontal_ad_top,#horizontalads,#hot-deals-ad,#houseAd,#hp-header-ad,#hp-mpu,#hp-right-ad,#hp-store-ad,#hpV2_300x250Ad,#hpV2_googAds,#hp_ad300x250,#ibt_local_ad728,#icePage_SearchLinks_AdRightDiv,#icePage_SearchLinks_DownloadToolbarAdRightDiv,#icePage_SearchResults_ads0_SponsoredLink,#icePage_SearchResults_ads1_SponsoredLink,#icePage_SearchResults_ads2_SponsoredLink,#icePage_SearchResults_ads3_SponsoredLink,#icePage_SearchResults_ads4_SponsoredLink,#idSponsoredresultend,#idSponsoredresultstart,#iframeRightAd,#iframeTopAd,#imu_ad_module,#in_serp_ad,#inadspace,#indexad,#inline-story-ad,#inlineAd,#inlinead,#inlinegoogleads,#inlist-ad-block,#inner-advert-row,#inner-top-ads,#innerpage-ad,#inside-page-ad,#insider_ad_wrapper,#instoryad,#instoryadtext,#instoryadwrap,#int-ad,#interstitial_ad_wrapper,#iqadtile8,#islandAd,#j_ad,#ji_medShowAdBox,#jmp-ad-buttons,#joead,#joead2,#js_adsense,#ka_adRightSkyscraperWide,#ka_samplead,#kaufDA-widget,#kdz_ad1,#kdz_ad2,#keyadvertcontainer,#landing-adserver,#lapho-top-ad-1,#largead,#lateAd,#layerAds_layerDiv,#layerTLDADSERV,#layer_ad_content,#layer_ad_main,#layerad,#leader-board-ad,#leaderAd,#leaderAdContainer,#leader_ad,#leader_board_ad,#leaderad,#leaderad_section,#leaderboard-ad,#leaderboard-bottom-ad,#leaderboardAd,#leaderboard_ad,#leaderboard_ad_gam,#left-ad-1,#left-ad-2,#left-ad-col,#left-ad-skin,#left-bottom-ad,#left-lower-adverts,#left-lower-adverts-container,#leftAdContainer,#leftAd_rdr,#leftAdvert,#leftSectionAd300-100,#left_ad,#left_adspace,#leftad,#leftads,#leftcolAd,#lg-banner-ad,#ligatus,#linkAds,#linkads,#live-ad,#localAds,#logoAd,#longAdSpace,#long_advertisement,#lowerAdvertisementImg,#lower_ad,#lowerads,#lowerthirdad,#lowertop-adverts,#lowertop-adverts-container,#lpAdPanel,#lrecad,#lsadvert-left_menu_1,#lsadvert-left_menu_2,#lsadvert-top,#mBannerAd,#main-ad,#main-ad160x600,#main-ad160x600-img,#main-ad728x90,#main-advert1,#main-advert2,#main-advert3,#main-bottom-ad,#main-tj-ad,#mainAd,#mainAdUnit,#mainAdvert,#mainAdvertismentP,#mainHeaderAdvertisment,#main_ad,#main_rec_ad,#main_top_ad_container,#marketing-promo,#mastAd,#mastAdvert,#mastad,#mastercardAd,#masthead_ad,#masthead_topad,#medRecAd,#media_ad,#mediaplayer_adburner,#mediumAdvertisement,#medrectad,#menuAds,#menubanner-ad-content,#mi_story_assets_ad,#mid-ad300x250,#mid-table-ad,#midRightTextAds,#mid_ad_div,#mid_ad_title,#mid_mpu,#midadd,#midadspace,#middle-ad,#middle_ad,#middle_body_advertising,#middlead,#middleads,#midrect_ad,#midstrip_ad,#mini-ad,#mochila-column-right-ad-300x250,#mochila-column-right-ad-300x250-1,#module-google_ads,#module_ad,#module_box_ad,#module_sky_scraper,#monsterAd,#moogleAd,#moreads,#most_popular_ad,#motionAd,#mpu-advert,#mpu-cont,#mpu300250,#mpuAd,#mpuDiv,#mpuSlot,#mpuWrapper,#mpuWrapperAd,#mpu_banner,#mpu_firstpost,#mpu_holder,#mpu_text_ad,#mpuad,#mpubox,#mr_banner_topad,#mrecAdContainer,#msAds,#ms_ad,#msad,#multiLinkAdContainer,#multi_ad,#my-ads,#myads_HeaderButton,#n_sponsor_ads,#namecom_ad_hosting_main,#narrow-ad,#narrow_ad_unit,#natadad300x250,#national_microlink_ads,#nationalad,#navi_banner_ad_780,#nba160PromoAd,#nba300Ad,#nbaGI300ad,#nbaHouseAnd600Ad,#nbaLeft600Ad,#nbaMidAds,#nbaVid300Ad,#nbcAd300x250,#new_topad,#newads,#news_advertorial_content,#news_advertorial_top,#ng_rtcol_ad,#noresults_ad_container,#noresultsads,#northad,#northbanner-advert,#northbanner-advert-container,#ns_ad1,#ns_ad2,#ns_ad3,#oanda_ads,#onespot-ads,#online_ad,#ovadsense,#p-googleadsense,#page-header-ad,#page-top-ad,#pageAds,#pageAdsDiv,#pageBannerAd,#page_ad,#page_content_top_ad,#pagelet_adbox,#pagelet_netego_ads,#pagelet_search_ads2,#panelAd,#pb_report_ad,#pcworldAdBottom,#pcworldAdTop,#pinball_ad,#player-below-advert,#player_ad,#player_ads,#pmad-in1,#pod-ad-video-page,#populate_ad_bottom,#populate_ad_left,#popup_domination_lightbox_wrapper,#portlet-advertisement-left,#portlet-advertisement-right,#post-promo-ad,#post5_adbox,#post_ad,#premium_ad,#priceGrabberAd,#prime-ad-space,#print-header-ad,#print_ads,#printads,#product-adsense,#promo-ad,#promoAds,#ps-vertical-ads,#pub468x60,#publicidad,#pushdown_ad,#qm-ad-big-box,#qm-ad-sky,#qm-dvdad,#quigo_ad,#r1SoftAd,#rail_ad1,#rail_ad2,#realEstateAds,#rectAd,#rect_ad,#rectangle-ad,#rectangleAd,#rectangle_ad,#refine-300-ad,#region-node-advert,#region-top-ad,#relocation_ad_container,#rh-ad-container,#rh_tower_ad,#rhapsodyAd,#rhs_ads,#rhsadvert,#right-ad,#right-ad-col,#right-ad-skin,#right-ad-title,#right-ad1,#right-ads-3,#right-advert,#right-bar-ad,#right-box-ad,#right-featured-ad,#right-mpu-1-ad-container,#right-uppder-adverts,#right-uppder-adverts-container,#rightAd,#rightAd300x250,#rightAd300x250Lower,#rightAdBar,#rightAdColumn,#rightAd_rdr,#rightAdsDiv,#rightColAd,#rightColumnMpuAd,#rightColumnSkyAd,#right_ad,#right_ad_wrapper,#right_ads,#right_advert,#right_advertisement,#right_advertising,#right_column_ad_container,#right_column_ads,#right_column_adverts,#right_column_internal_ad_container,#right_column_top_ad_unit,#rightad,#rightadContainer,#rightads,#rightadvertbar-doubleclickads,#rightbar-ad,#rightcolhouseads,#rightcolumn_300x250ad,#rightgoogleads,#rightinfoad,#rightside-ads,#rightside_ad,#righttop-adverts,#righttop-adverts-container,#rm_ad_text { display:none !important; } #ros_ad,#rotatingads,#row2AdContainer,#rprightHeaderAd,#rr_MSads,#rt-ad,#rt-ad-top,#rt-ad468,#rtMod_ad,#rtmod_ad,#sAdsBox,#sb-ad-sq,#sb_ad_links,#sb_advert,#search-google-ads,#search-sponsored-links,#search-sponsored-links-top,#searchAdSenseBox,#searchAdSenseBoxAd,#searchAdSkyscraperBox,#search_ads,#search_result_ad,#sec_adspace,#second-adlayer,#secondBoxAdContainer,#secondrowads,#sect-ad-300x100,#sect-ad-300x250-2,#section-ad-1-728,#section-ad-300-250,#section-ad-4-160,#section-blog-ad,#section-container-ddc_ads,#section_advertisements,#section_advertorial_feature,#servfail-ads,#sew-ad1,#shoppingads,#shortads,#show-ad,#showAd,#showad,#side-ad,#side-ad-container,#side-ads,#sideAd,#sideAd1,#sideAd2,#sideAdSub,#sideAds,#sideBarAd,#side_ad,#side_ad_wrapper,#side_ads_by_google,#side_sky_ad,#sidead,#sideads,#sideadtop-to,#sidebar-125x125-ads,#sidebar-125x125-ads-below-index,#sidebar-ad,#sidebar-ad-boxes,#sidebar-ad-space,#sidebar-ad-wrap,#sidebar-ad3,#sidebar-ads,#sidebar-adv,#sidebar-sponsor-link,#sidebar2ads,#sidebar_ad,#sidebar_ad_widget,#sidebar_ads,#sidebar_ads_180,#sidebar_sponsoredresult_body,#sidebar_txt_ad_links,#sidebarad,#sidebaradpane,#sidebarads,#sidebaradver_advertistxt,#sideline-ad,#single-mpu,#singlead,#site-ad-container,#site-leaderboard-ads,#site_top_ad,#sitead,#sky-ad,#skyAd,#skyAdContainer,#skyScrapperAd,#skyWrapperAds,#sky_ad,#sky_advert,#skyads,#skyadwrap,#skyline_ad,#skyscrapeAd,#skyscraper-ad,#skyscraperAd,#skyscraperAdContainer,#skyscraper_ad,#skyscraper_advert,#skyscraperad,#slide_ad,#sliderAdHolder,#slideshow_ad_300x250,#sm-banner-ad,#small_ad,#small_ad_banners_vertical,#small_ads,#smallerAd,#some-ads,#some-more-ads,#specialAd_one,#specialAd_two,#specialadvertisingreport_container,#specials_ads,#speeds_ads,#speeds_ads_fstitem,#speedtest_mrec_ad,#sphereAd,#spnAds,#sponlink,#sponlinks,#sponsAds,#sponsLinks,#sponseredlinks,#sponsorAd1,#sponsorAd2,#sponsorAdDiv,#sponsorLinks,#sponsorTextLink,#sponsor_banderole,#sponsor_deals,#sponsored,#sponsored-ads,#sponsored-features,#sponsored-links,#sponsored-listings,#sponsored-resources,#sponsored1,#sponsoredBox1,#sponsoredBox2,#sponsoredLinks,#sponsoredLinks_Top,#sponsoredList,#sponsoredResults,#sponsoredResultsWide,#sponsoredSiteMainline,#sponsoredSiteSidebar,#sponsored_ads_v4,#sponsored_container,#sponsored_content,#sponsored_game_row_listing,#sponsored_head,#sponsored_link,#sponsored_link_bottom,#sponsored_links,#sponsored_v12,#sponsoredads,#sponsoredlinks,#sponsoredlinks_cntr,#sponsoredlinkslabel,#sponsoredresults_top,#sponsoredwellcontainerbottom,#sponsoredwellcontainertop,#sponsorlink,#spotlightAds,#spotlightad,#sqAd,#squareAd,#squareAdSpace,#squareAds,#square_ad,#srp_adsense-top,#start_middle_container_advertisment,#sticky-ad,#stickyBottomAd,#story-90-728-area,#story-ad-a,#story-ad-b,#story-leaderboard-ad,#story-sponsoredlinks,#storyAd,#storyAdWrap,#storyad2,#submenu-ads,#subpage-ad-right,#subpage-ad-top,#swads,#synch-ad,#systemad_background,#tabAdvertising,#takeoverad,#tblAd,#tbl_googlead,#tcwAd,#td-GblHdrAds,#template_ad_leaderboard,#tertiary_advertising,#test_adunit_160_article,#text-ad,#text-ads,#text-link-ads,#textAd,#textAds,#text_ad,#text_ads,#text_advert,#textad,#textad3,#textad_block,#the-last-ad-standing,#thefooterad,#themis-ads,#tile-ad,#tmglBannerAd,#tmp2_promo_ad,#toolbarSlideUpAd,#top-ad,#top-ad-container,#top-ad-menu,#top-ads,#top-ads-tabs,#top-advertisement,#top-banner-ad,#top-search-ad-wrapper,#topAd,#topAd728x90,#topAdBanner,#topAdBox,#topAdContainer,#topAdSenseDiv,#topAdcontainer,#topAds,#topAdsContainer,#topAdvBox,#topAdvert,#topAdvert-09,#topBannerAd,#topBannerAdContainer,#topContentAdTeaser,#topNavLeaderboardAdHolder,#topOverallAdArea,#topRightBlockAdSense,#topSponsoredLinks,#top_ad,#top_ad-sense,#top_ad_area,#top_ad_banner,#top_ad_game,#top_ad_unit,#top_ad_wrapper,#top_ad_zone,#top_ads,#top_ads_wrap,#top_advertise,#top_advertising,#top_rectangle_ad,#top_right_ad,#top_wide_ad,#topad,#topad1,#topad2,#topad_left,#topad_right,#topadbar,#topadblock,#topaddwide,#topads,#topadsense,#topadspace,#topadwrap,#topadzone,#topbanner_ad,#topbannerad,#topbar-ad,#topcustomad,#topleaderboardad,#topnav-ad-shell,#topnavad,#toprightAdvert,#toprightad,#topsponsored,#toptextad,#tour300Ad,#tour728Ad,#tourSponsoredLinksContainer,#towerad,#ts-ad_module,#ttp_ad_slot1,#ttp_ad_slot2,#twogamesAd,#txfPageMediaAdvertVideo,#txt_link_ads,#txtads,#undergameAd,#upper-ads,#upperAdvertisementImg,#upperMpu,#upper_small_ad,#upperad,#urban_contentad_1,#urban_contentad_2,#urban_contentad_article,#v_ad,#vap_adsense-top,#vert-ads,#vert_ad,#vert_ad_placeholder,#vertical_ad,#vertical_ads,#videoAd,#videoAdvert,#video_ads_overdiv,#video_advert2,#video_advert3,#video_cnv_ad,#video_overlay_ad,#videoadlogo,#view_ads,#view_ads_advertisements,#viewads,#viewportAds,#viewvid_ad300x250,#wXcds12-ad,#wall_advert,#wallpaper-ad-link,#wallpaperAd_left,#wallpaperAd_right,#walltopad,#weblink_ads_container,#welcomeAdsContainer,#welcome_ad_mrec,#welcome_advertisement,#wf_ContentAd,#wf_FrontSingleAd,#wf_SingleAd,#wf_bottomContentAd,#wgtAd,#whatsnews_top_ad,#whitepaper-ad,#whoisRightAdContainer,#wide_ad_unit_top,#wideskyscraper_160x600_left,#wideskyscraper_160x600_right,#widget_Adverts,#widget_advertisement,#widgetwidget_adserve2,#wrapAdRight,#wrapAdTop,#wrapperAdsTopLeft,#wrapperAdsTopRight,#xColAds,#y-ad-units,#y708-ad-expedia,#y708-ad-lrec,#y708-ad-partners,#y708-ad-ysm,#y708-advertorial-marketplace,#yahoo-ads,#yahoo-sponsors,#yahooSponsored,#yahoo_ads,#yahoo_ads_2010,#yahoo_text_ad,#yahooad-tbl,#yan-sponsored,#yatadsky,#ybf-ads,#yfi_fp_ad_mort,#yfi_fp_ad_nns,#yfi_pf_ad_mort,#ygrp-sponsored-links,#ymap_adbanner,#yn-gmy-ad-lrec,#yreSponsoredLinks,#ysm_ad_iframe,#zoneAdserverMrec,#zoneAdserverSuper,.ADBAR,.ADPod,.AD_ALBUM_ITEMLIST,.AD_MOVIE_ITEM,.AD_MOVIE_ITEMLIST,.AD_MOVIE_ITEMROW,.ADbox,.Ad-300x100,.Ad-Container-976x166,.Ad-Header,.Ad-MPU,.Ad-Wrapper-300x100,.Ad120x600,.Ad160x600,.Ad160x600left,.Ad160x600right,.Ad247x90,.Ad300x,.Ad300x250,.Ad300x250L,.Ad728x90,.AdBorder,.AdBox,.AdBox7,.AdContainerBox308,.AdContainerModule,.AdHeader,.AdHere,.AdInfo,.AdInline,.AdMedium,.AdPlaceHolder,.AdProS728x90Container,.AdProduct,.AdRingtone,.AdSense,.AdSenseLeft,.AdSlot,.AdSpace,.AdTextSmallFont,.AdTitle,.AdUnit,.AdUnit300,.Ad_C,.Ad_D_Wrapper,.Ad_E_Wrapper,.Ad_Right,.AdsBottom,.AdsBoxBottom,.AdsBoxSection,.AdsBoxTop,.AdsLinks1,.AdsLinks2,.AdsRec,.AdvBoxSidebar,.Advert,.Advert300x250,.AdvertMidPage,.AdvertiseWithUs,.Advertisement,.AdvertisementTextTag,.Advman_Widget,.ArticleAd,.ArticleInlineAd,.BCA_Advertisement,.Banner300x250,.BannerAd,.BigBoxAd,.BlockAd,.BlueTxtAdvert,.BottomAdContainer,.BottomAffiliate,.BoxAd,.CG_adkit_leaderboard,.CG_details_ad_dropzone,.CWReviewsProdInfoAd,.ComAread,.CommentAd,.ContentAd,.ContentAds,.DAWRadvertisement,.DeptAd,.DisplayAd,.FT_Ad,.FeaturedAdIndexAd,.FlatAds,.FooterAds,.GOOGLE_AD,.GoogleAd,.GoogleAdSenseBottomModule,.GoogleAdSenseRightModule,.HPG_Ad_B,.HPNewAdsBannerDiv,.HPRoundedAd,.HeaderAds,.HomeContentAd,.IABAdSpace,.InArticleAd,.IndexRightAd,.LazyLoadAd,.LeftAd,.LeftButtonAdSlot,.LeftTowerAd,.M2Advertisement,.MD_adZone,.MOS-ad-hack,.MPUHolder,.MPUTitleWrapperClass,.MREC_ads,.MiddleAd,.MiddleAdContainer,.MiddleAdvert,.NewsAds,.OpaqueAdBanner,.OpenXad,.PU_DoubleClickAdsContent,.Post5ad,.Post8ad,.Post9ad,.RBboxAd,.RW_ad300,.RectangleAd,.RelatedAds,.Right300x250AD,.RightAd1,.RightAdvertiseArea,.RightAdvertisement,.RightGoogleAFC,.RightRailAd,.RightRailTop300x250Ad,.RightSponsoredAdTitle,.RightTowerAd,.STR_AdBlock,.SectionSponsor,.SideAdCol,.SidebarAd,.SidebarAdvert,.SitesGoogleAdsModule,.SkyAdContainer,.SponsoredAdTitle,.SponsoredContent,.SponsoredLinkItemTD,.SponsoredLinks,.SponsoredLinksGrayBox,.SponsoredLinksModule,.SponsoredLinksPadding,.SponsoredLinksPanel,.Sponsored_link,.SquareAd,.StandardAdLeft,.StandardAdRight,.TRU-onsite-ads-leaderboard,.TextAd,.TheEagleGoogleAdSense300x250,.TopAd,.TopAdContainer,.TopAdL,.TopAdR,.TopBannerAd,.UIWashFrame_SidebarAds,.UnderAd,.VerticalAd,.Video-Ad,.VideoAd,.WidgetAdvertiser,.a160x600,.a728x90,.ad-120x60,.ad-120x600,.ad-160,.ad-160x600,.ad-160x600x1,.ad-160x600x2,.ad-160x600x3,.ad-250,.ad-300,.ad-300-block,.ad-300-blog,.ad-300x100,.ad-300x250,.ad-300x250-first,.ad-300x250-right0,.ad-300x600,.ad-350,.ad-355x75,.ad-600,.ad-635x40,.ad-728,.ad-728x90,.ad-728x90-1,.ad-728x90-top0,.ad-728x90_forum,.ad-90x600,.ad-above-header,.ad-adlink-bottom,.ad-adlink-side,.ad-area,.ad-background,.ad-banner,.ad-banner-smaller,.ad-bigsize,.ad-block,.ad-block-square,.ad-blog2biz,.ad-body,.ad-bottom,.ad-box,.ad-break,.ad-btn,.ad-btn-heading,.ad-button,.ad-cell,.ad-column,.ad-container,.ad-container-300x250,.ad-container-728x90,.ad-container-994x282,.ad-context,.ad-disclaimer,.ad-display,.ad-div,.ad-enabled,.ad-feedback,.ad-filler,.ad-flex,.ad-footer,.ad-footer-leaderboard,.ad-forum,.ad-google,.ad-graphic-large,.ad-gray,.ad-grey,.ad-hdr,.ad-head,.ad-header,.ad-heading,.ad-holder,.ad-homeleaderboard,.ad-img,.ad-in-post,.ad-index-main,.ad-inline,.ad-island,.ad-item,.ad-label,.ad-leaderboard,.ad-left,.ad-link,.ad-links,.ad-lrec,.ad-medium,.ad-medium-two,.ad-mpl,.ad-mpu,.ad-msn,.ad-note,.ad-notice,.ad-other,.ad-permalink,.ad-place-active,.ad-placeholder,.ad-postText,.ad-poster,.ad-priority,.ad-rect,.ad-rectangle,.ad-rectangle-text,.ad-related,.ad-rh,.ad-ri,.ad-right,.ad-right-header,.ad-right-txt,.ad-row,.ad-section,.ad-show-label,.ad-side,.ad-sidebar,.ad-sidebar-outer,.ad-sidebar300,.ad-sky,.ad-skyscr,.ad-skyscraper,.ad-slot,.ad-slot-234-60,.ad-slot-300-250,.ad-slot-728-90,.ad-source,.ad-space,.ad-space-mpu-box,.ad-space-topbanner,.ad-spot,.ad-square,.ad-square300,.ad-squares,.ad-statement,.ad-story-inject,.ad-tabs,.ad-text,.ad-text-links,.ad-tile,.ad-title,.ad-top,.ad-top-left,.ad-unit,.ad-unit-300,.ad-unit-300-wrapper,.ad-unit-anchor,.ad-unit-top,.ad-vert,.ad-vertical-container,.ad-vtu,.ad-widget-list,.ad-with-us,.ad-wrap,.ad-wrapper,.ad-zone,.ad-zone-s-q-l,.ad.super,.ad08sky,.ad100,.ad120,.ad120x240backgroundGray,.ad120x600,.ad125,.ad140,.ad160,.ad160600,.ad160x600,.ad160x600GrayBorder,.ad200x60,.ad230,.ad250,.ad250c,.ad300,.ad300250,.ad300_250,.ad300x100,.ad300x250,.ad300x250-hp-features,.ad300x250Module,.ad300x250Top,.ad300x250_container,.ad300x250box,.ad300x50-right,.ad300x600,.ad310,.ad315,.ad336x280,.ad343x290,.ad400right,.ad450,.ad468,.ad468_60,.ad468x60,.ad540x90,.ad600,.ad620x70,.ad626X35,.ad644,.ad728,.ad728_90,.ad728x90,.ad728x90_container,.ad90x780,.adAgate,.adArea674x60,.adBanner,.adBanner300x250,.adBanner728x90,.adBannerTyp1,.adBannerTypSortableList,.adBannerTypW300,.adBar,.adBgBottom,.adBgMId,.adBgTop,.adBlock,.adBottomLink,.adBottomboxright,.adBox,.adBox1,.adBox230X96,.adBox728X90,.adBoxBody,.adBoxBorder,.adBoxContainer,.adBoxContent,.adBoxInBignews,.adBoxSidebar,.adBoxSingle,.adBwrap,.adCMRight,.adCell,.adColumn,.adCont,.adContTop,.adContainer,.adContentAd,.adContour,.adCreative,.adCube,.adDiv,.adElement,.adFender3,.adFrame,.adFtr,.adFullWidthMiddle,.adGoogle,.adHeader,.adHeadline,.adHolder,.adHome300x250,.adHorisontal,.adInNews,.adIsland,.adLabel,.adLeader,.adLeaderForum,.adLeaderboard,.adLeft,.adLoaded,.adLocal,.adMPU,.adMarker,.adMastheadLeft,.adMastheadRight,.adMegaBoard,.adMinisLR,.adMkt2Colw,.adModule,.adModuleAd,.adMpu,.adNewsChannel,.adNoOutline,.adNotice,.adNoticeOut,.adObj,.adPageBorderL,.adPageBorderR,.adPanel,.adPod,.adRect,.adResult,.adRight,.adSKY,.adSelfServiceAdvertiseLink,.adServer,.adSky,.adSky600,.adSkyscaper,.adSkyscraperHolder,.adSlot,.adSpBelow,.adSpace,.adSpacer,.adSplash,.adSponsor,.adSpot,.adSpot-brought,.adSpot-searchAd,.adSpot-textBox,.adSpot-twin,.adSpotIsland,.adSquare,.adSubColPod,.adSummary,.adSuperboard,.adSupertower,.adTD,.adTab,.adTag,.adText,.adTileWrap,.adTiler,.adTitle,.adTopLink,.adTopboxright,.adTout,.adTxt,.adUnit,.adUnitHorz,.adUnitVert,.adUnitVert_noImage,.adWebBoard,.adWidget,.adWithTab,.adWord,.adWrap,.adWrapper,.ad_0,.ad_1,.ad_120x90,.ad_125,.ad_130x90,.ad_160,.ad_160x600,.ad_2,.ad_200,.ad_200x200,.ad_250x250,.ad_250x250_w,.ad_3,.ad_300,.ad_300_250,.ad_300x250,.ad_300x250_box_right,.ad_336,.ad_336x280,.ad_350x100,.ad_350x250,.ad_400x200,.ad_468,.ad_468x60,.ad_600,.ad_680x15,.ad_728,.ad_728_90b,.ad_728x90,.ad_925x90,.ad_Left,.ad_Right,.ad_ad_300,.ad_amazon,.ad_banner,.ad_banner_border,.ad_bar,.ad_bg,.ad_bigbox,.ad_biz,.ad_block,.ad_block_338,.ad_body,.ad_border,.ad_botbanner,.ad_bottom,.ad_bottom_leaderboard,.ad_bottom_left,.ad_box,.ad_box2,.ad_box_ad,.ad_box_div,.ad_callout,.ad_caption,.ad_column,.ad_column_box,.ad_column_hl,.ad_contain,.ad_container,.ad_content,.ad_content_wide,.ad_contents,.ad_descriptor,.ad_disclaimer,.ad_eyebrow,.ad_footer,.ad_frame,.ad_framed,.ad_front_promo,.ad_gutter_top,.ad_head,.ad_header,.ad_heading,.ad_headline,.ad_holder,.ad_hpm,.ad_image,.ad_info_block,.ad_inline,.ad_island,.ad_jnaught,.ad_label,.ad_launchpad,.ad_leader,.ad_leaderboard,.ad_left,.ad_line,.ad_link,.ad_links,.ad_linkunit,.ad_loc,.ad_lrec,.ad_main,.ad_medrec,.ad_medrect,.ad_middle,.ad_mod,.ad_mp,.ad_mpu,.ad_mr,.ad_mrec,.ad_mrec_title_article,.ad_mrect,.ad_news,.ad_note,.ad_notice,.ad_one,.ad_p360,.ad_partner,.ad_partners,.ad_plus,.ad_post,.ad_power,.ad_primary,.ad_promo,.ad_rec,.ad_rectangle,.ad_right,.ad_right_col,.ad_row,.ad_row_bottom_item,.ad_side,.ad_sidebar,.ad_skyscraper,.ad_slug,.ad_slug_table,.ad_space,.ad_space_300_250,.ad_spacer,.ad_sponsor { display:none !important; } .ad_sponsoredsection,.ad_spot_b,.ad_spot_c,.ad_square_r,.ad_square_top,.ad_sub,.ad_tag_middle,.ad_text,.ad_text_w,.ad_title,.ad_top,.ad_top_leaderboard,.ad_top_left,.ad_topright,.ad_tower,.ad_unit,.ad_unit_rail,.ad_url,.ad_warning,.ad_wid300,.ad_wide,.ad_wrap,.ad_wrapper,.ad_wrapper_fixed,.ad_wrapper_top,.ad_wrp,.ad_zone,.adarea,.adarea-long,.adbanner,.adbannerbox,.adbannerright,.adbar,.adboard,.adborder,.adbot,.adbottom,.adbottomright,.adbox-outer,.adbox-wrapper,.adbox_300x600,.adbox_366x280,.adbox_468X60,.adbox_bottom,.adbox_br,.adbox_left,.adboxclass,.adboxesrow,.adbreak,.adbug,.adbutton,.adbuttons,.adcode,.adcol1,.adcol2,.adcolumn,.adcolumn_wrapper,.adcont,.adcopy,.add_300x250,.addiv,.adenquire,.adfieldbg,.adfoot,.adfootbox,.adframe,.adhead,.adhead_h,.adhead_h_wide,.adheader,.adheader100,.adheader416,.adhi,.adhint,.adholder,.adhoriz,.adiframe,.adinfo,.adinside,.adintro,.adits,.adjlink,.adkicker,.adkit,.adkit-advert,.adkit-lb-footer,.adlabel-horz,.adlabel-vert,.adlabelleft,.adlayer,.adleader,.adleaderboard,.adleft1,.adline,.adlink,.adlinks,.adlist,.adlnklst,.admarker,.admediumred,.admedrec,.admessage,.admodule,.admpu,.admpu-small,.adnation-banner,.adnotice,.adops,.adp-AdPrefix,.adpadding,.adpane,.adpic,.adprice,.adproxy,.adrec,.adright,.adroot,.adrotate_widget,.adrow,.adrow-post,.adrow1box1,.adrow1box3,.adrow1box4,.adrule,.ads-125,.ads-300,.ads-300x250,.ads-728x90-wrap,.ads-ads-top,.ads-banner,.ads-below-content,.ads-categories-bsa,.ads-custom,.ads-favicon,.ads-item,.ads-links-general,.ads-mpu,.ads-outer,.ads-profile,.ads-right,.ads-section,.ads-sidebar,.ads-sky,.ads-small,.ads-sponsors,.ads-stripe,.ads-text,.ads-top,.ads-wide,.ads-widget,.ads-widget-partner-gallery,.ads03,.ads160,.ads1_250,.ads24Block,.ads300,.ads460,.ads460_home,.ads468,.ads728,.ads728x90,.adsArea,.adsBelowHeadingNormal,.adsBlock,.adsBottom,.adsBox,.adsCell,.adsCont,.adsDiv,.adsFull,.adsImages,.adsInsideResults_v3,.adsMPU,.adsMiddle,.adsRight,.adsRow,.adsTextHouse,.adsTop,.adsTower2,.adsTowerWrap,.adsWithUs,.ads_125_square,.ads_180,.ads_300,.ads_300x100,.ads_300x250,.ads_320,.ads_337x280,.ads_728x90,.ads_big,.ads_big-half,.ads_box,.ads_box_headline,.ads_brace,.ads_catDiv,.ads_container,.ads_disc_anchor,.ads_disc_leader,.ads_disc_lwr_square,.ads_disc_skyscraper,.ads_disc_square,.ads_div,.ads_footer,.ads_header,.ads_holder,.ads_horizontal,.ads_leaderboard,.ads_lr_wrapper,.ads_medrect,.ads_mpu,.ads_outer,.ads_post_end,.ads_post_end_code,.ads_post_start,.ads_post_start_code,.ads_rectangle,.ads_remove,.ads_right,.ads_rightbar_top,.ads_sc_bl_i,.ads_sc_tb,.ads_sc_tl_i,.ads_show_if,.ads_side,.ads_sidebar,.ads_singlepost,.ads_spacer,.ads_takeover,.ads_title,.ads_top,.ads_top_promo,.ads_tr,.ads_verticalSpace,.ads_vtlLink,.ads_widesky,.ads_wrapperads_top,.adsafp,.adsbg300,.adsblockvert,.adsborder,.adsbottom,.adsbox,.adsboxitem,.adsbttmpg,.adsbyyahoo,.adscaleAdvert,.adscaleP6_canvas,.adsclick,.adscontainer,.adscreen,.adsd_shift100,.adsection_a2,.adsection_c2,.adsense-468,.adsense-ad,.adsense-category,.adsense-category-bottom,.adsense-googleAds,.adsense-heading,.adsense-overlay,.adsense-post,.adsense-right,.adsense-title,.adsense3,.adsense300,.adsenseAds,.adsenseBlock,.adsenseContainer,.adsenseGreenBox,.adsenseInPost,.adsenseList,.adsense_bdc_v2,.adsense_mpu,.adsensebig,.adsenseblock,.adsenseblock_bottom,.adsenseblock_top,.adsenselr,.adsensem_widget,.adsensesq,.adsenvelope,.adserver_zone,.adset,.adsforums,.adsghori,.adsgvert,.adshome,.adside,.adsidebox,.adsider,.adsingle,.adsleft,.adsleftblock,.adslink,.adslogan,.adslotleft,.adslotright,.adsmalltext,.adsmessage,.adsnippet_widget,.adspace,.adspace-MR,.adspace-widget,.adspace180,.adspace_bottom,.adspace_buysell,.adspace_rotate,.adspace_skyscraper,.adspacer,.adspot,.adspot728x90,.adstext,.adstextpad,.adstitle,.adstop,.adstory,.adstrip,.adtab,.adtable,.adtag,.adtech,.adtext,.adtext_gray,.adtext_horizontal,.adtext_onwhite,.adtext_vertical,.adtile,.adtips,.adtips1,.adtitle,.adtop,.adtravel,.adtxt,.adtxtlinks,.adunit,.adv-mpu,.adv-p,.adv-sidebar,.adv300,.advBox,.advSquare,.advVideobox,.adv_120x600,.adv_300x250,.adv_728x90,.adv_banner_hor,.adv_medium_rectangle,.adver,.adverTag,.adverTxt,.adver_cont_below,.advert-300-side,.advert-300x100-side,.advert-728x90,.advert-article-bottom,.advert-bannerad,.advert-bg-250,.advert-bloggrey,.advert-box,.advert-btm,.advert-head,.advert-horizontal,.advert-iab-300-250,.advert-iab-468-60,.advert-mpu,.advert-skyscraper,.advert-text,.advert-title,.advert-txt,.advert120,.advert300,.advert300x250,.advert300x300,.advert300x440,.advert350ih,.advert4,.advert5,.advert728x90,.advert8,.advertColumn,.advertCont,.advertContainer,.advertContent,.advertHeadline,.advertIslandWrapper,.advertRight,.advertSuperBanner,.advertText,.advertTitleSky,.advert_336,.advert_468x60,.advert_box,.advert_cont,.advert_container,.advert_djad,.advert_google_content,.advert_google_title,.advert_home_300,.advert_label,.advert_leaderboard,.advert_list,.advert_note,.advert_surr,.advert_top,.advertheader-red,.advertise,.advertise-here,.advertise-homestrip,.advertise-horz,.advertise-inquiry,.advertise-leaderboard,.advertise-list,.advertise-top,.advertise-vert,.advertiseContainer,.advertiseText,.advertise_ads,.advertise_here,.advertise_link,.advertise_link_sidebar,.advertisement,.advertisement-728x90,.advertisement-block,.advertisement-sidebar,.advertisement-space,.advertisement-sponsor,.advertisement-swimlane,.advertisement-text,.advertisement-top,.advertisement300x250,.advertisement468,.advertisementBox,.advertisementColumnGroup,.advertisementContainer,.advertisementHeader,.advertisementLabel,.advertisementPanel,.advertisementText,.advertisement_300x250,.advertisement_btm,.advertisement_caption,.advertisement_g,.advertisement_header,.advertisement_horizontal,.advertisement_top,.advertisementsOutterDiv,.advertiser,.advertiser-links,.advertisespace_div,.advertising-banner,.advertising-header,.advertising-leaderboard,.advertising-local-links,.advertising2,.advertisingTable,.advertising_block,.advertising_images,.advertisment,.advertisment_bar,.advertisment_caption,.advertisment_two,.advertize,.advertize_here,.advertorial,.advertorial-2,.advertorial-promo-box,.advertorial_red,.advertorialtitle,.adverts,.adverts-125,.adverts_RHS,.advt,.advt-banner-3,.advt-block,.advt-sec,.advt300,.advt720,.advtitle,.adwhitespace,.adwordListings,.adwords,.adwordsHeader,.adwrap,.adwrapper-lrec,.adwrapper948,.adzone-footer,.adzone-sidebar,.affiliate-link,.affiliate-sidebar,.affiliateAdvertText,.affiliates-sidebar,.affinityAdHeader,.afsAdvertising,.after_ad,.agi-adsaleslinks,.alb-content-ad,.alignads,.alt_ad,.anchorAd,.another_text_ad,.answer_ad_content,.aolSponsoredLinks,.aopsadvert,.apiAdMarkerAbove,.apiAds,.app_advertising_skyscraper,.archive-ads,.art_ads,.article-ad-box,.article-ads,.article-content-adwrap,.articleAd,.articleAd300x250,.articleAds,.articleAdsL,.articleEmbeddedAdBox,.article_ad,.article_adbox,.article_mpu_box,.article_page_ads_bottom,.articleads,.aseadn,.aux-ad-widget-1,.aux-ad-widget-2,.b-astro-sponsored-links_horizontal,.b-astro-sponsored-links_vertical,.b_ads_cont,.b_ads_top,.banmanad,.banner-468-60,.banner-468x60,.banner-ad,.banner-ads,.banner-adv,.banner-advert,.banner-adverts,.banner-buysellads,.banner160x600,.banner300by250,.banner300x100,.banner300x250,.banner468,.banner468by60,.banner728x90,.bannerADV,.bannerAd,.bannerAdWrapper300x250,.bannerAdWrapper730x86,.bannerAds,.bannerAdvert,.bannerRightAd,.banner_160x600,.banner_300x250,.banner_728x90,.banner_ad,.banner_ad_footer,.banner_ad_leaderboard,.bannerad,.bannerad-125tower,.bannerad-468x60,.barkerAd,.base-ad-mpu,.base_ad,.base_printer_widgets_AdBreak,.bg-ad-link,.bgnavad,.big-ads,.bigAd,.big_ad,.big_ads,.bigad,.bigad2,.bigbox_ad,.bigboxad,.billboard300x250,.billboard_ad,.biz-ad,.biz-ads,.biz-adtext,.blk_advert,.block-ad,.block-ad300,.block-admanager,.block-ads-bottom,.block-ads-top,.block-adsense,.block-adsense-managed,.block-adspace-full,.block-bg-advertisement-region-1,.block-deca_advertising,.block-google-admanager,.block-google_admanager,.block-openads,.block-openadstream,.block-openx,.block-thirdage-ads,.block-wtg_adtech,.blockAd,.blockAds,.block_ad,.block_ad_floating_bar,.block_ad_sb_text,.block_ad_sb_text2,.block_ad_sponsored_links,.block_ad_sponsored_links-wrapper,.block_ad_sponsored_links_localized,.blockad,.blocked-ads,.blog-ad-leader-inner,.blog-ads-container,.blogAd,.blogAdvertisement,.blogArtAd,.blogBigAd,.blog_ad,.blogads,.blox3featuredAd,.bn_textads,.body_ad,.body_sponsoredresults_bottom,.body_sponsoredresults_middle,.body_sponsoredresults_top,.bodyads,.bodyads2,.bookseller-header-advt,.bottom-ad,.bottom-ad-fr,.bottom-ads,.bottomAd,.bottomAds,.bottom_ad,.bottom_ad_block,.bottom_ads,.bottom_adsense,.bottom_right_ad,.bottomad,.bottomads,.bottomadvert,.bottombarad,.bottomrightrailAd,.bottomvidad,.box-ad,.box-ad-grey,.box-ads,.box-ads-small,.box-adsense,.box-adverts,.boxAd,.boxAds,.boxAdsInclude,.box_ad,.box_ad_container,.box_ad_content,.box_ad_spacer,.box_ad_wrap,.box_ads,.box_adv,.box_adv_new,.box_advertising,.box_advertisment_62_border,.box_content_ad,.box_content_ads,.box_textads,.boxad,.boxads,.boxyads,.bps-ad-wrapper,.bps-advertisement,.bps-advertisement-inline-ads,.br-ad,.breakad_container,.brokerad,.bsa_ads,.btm_ad,.btm_ad_container,.btn-ad,.bullet-sponsored-links,.bullet-sponsored-links-gray,.burstContentAdIndex,.busrep_poll_and_ad_container,.buttonAd,.buttonAds,.button_ads,.button_advert,.buttonadbox,.buttonads,.bx_ad,.bx_ad_right,.cA-adStrap,.cColumn-TextAdsBox,.cLeftTextAdUnit,.c_ligatus_nxn,.calendarAd,.calloutAd,.carbonad,.carbonad-tag,.care2_adspace,.catalog_ads,.category-ad,.categorySponsorAd,.category__big_game_container_body_games_advertising,.cb-ad-banner,.cb-ad-container,.cb_ads,.cb_navigation_ad,.cbstv_ad_label,.cbzadvert,.cbzadvert_block,.cdAdTitle,.cdmainlineSearchAdParent,.cdo-ad-section,.cdsidebarSearchAdParent,.centerAd,.center_ad,.centerad,.centered-ad,.chitikaAdCopy,.cinemabotad,.classifiedAdThree,.clearerad,.cmAdContainer,.cmAdFind,.cmAdSponsoredLinksBox,.cm_ads,.cms-Advert,.cnbc_badge_banner_ad_area,.cnbc_banner_ad_area,.cnbc_leaderboard_ad,.cnn160AdFooter,.cnnAd,.cnnMosaic160Container,.cnnStoreAd,.cnnStoryElementBoxAd,.cnnWCAdBox,.cnnWireAdLtgBox,.cnn_728adbin,.cnn_adcntr300x100,.cnn_adcntr728x90,.cnn_adspc336cntr,.cnn_adtitle,.cntrad,.column2-ad,.columnBoxAd,.columnRightAdvert,.com-ad-server,.comment-ad,.comment-ad-wrap,.comment-advertisement,.comment_ad_box,.common_advertisement_title,.communityAd,.conTSponsored,.conductor_ad,.confirm_ad_left,.confirm_ad_right,.confirm_leader_ad,.consoleAd,.container-adwords,.containerSqAd,.container_serendipity_plugin_google_adsense,.content-ad,.content-ads,.content-advert,.contentAd,.contentAdContainer,.contentAdFoot,.contentAdsWrapper,.content_ad,.content_ad_728,.content_adsense,.content_adsq,.content_tagsAdTech,.contentad,.contentad-home,.contentad300x250,.contentad_right_col,.contentadcontainer,.contentadfloatl,.contentadleft,.contentads,.contentadstartpage,.contents-ads-bottom-left,.contenttextad,.contest_ad,.cp_ad,.cpmstarHeadline,.cpmstarText,.create_ad,.cs-mpu,.cscTextAd,.cse_ads,.cspAd,.ct_ad,.ctnAdSkyscraper,.ctnAdSquare300,.cube-ad,.cubeAd,.cube_ads,.currency_ad,.custom_ads,.cwAdvert,.cxAdvertisement,.darla_ad,.dart-ad,.dartAdImage,.dart_ad,.dart_tag,.dartadvert,.dartiframe,.dc-ad,.dcAdvertHeader,.deckAd,.deckads,.detail-ads,.detailMpu,.detail_ad,.detail_top_advert,.dfrads,.displayAdSlot,.divAd,.divAdright,.div_adv300,.div_advstrip,.divad1,.divad2,.divad3,.divads,.divider_ad,.dlSponsoredLinks,.dmco_advert_iabrighttitle,.downloadAds,.download_ad,.downloadad,.dsq_ad,.dualAds,.dynamic-ads,.dynamic_ad,.e-ad,.ec-ads,.ec-ads-remove-if-empty,.em-ad,.em_ads_box_dynamic_remove,.embed-ad,.embeddedAd,.entry-body-ad,.entry-injected-ad,.entry_sidebar_ads,.entryad,.ez-clientAd,.f_Ads,.feature_ad,.featuredAds,.featured_ad,.featuredadvertising,.fireplaceadleft,.fireplaceadright,.fireplaceadtop,.firstpost_advert_container,.flagads,.flash-advertisement,.flash_ad,.flash_advert,.flashad,.flexiad,.flipbook_v2_sponsor_ad,.floatad,.floated_right_ad,.floatingAds,.fm-badge-ad,.fns_td_wrap,.fold-ads,.footad,.footer-ad,.footer-advert,.footerAd,.footerAdModule,.footerAds,.footerAdslot,.footerAdverts,.footerTextAd,.footer_ad,.footer_ad336,.footer_ads,.footer_block_ad,.footer_bottomad,.footer_line_ad,.footer_text_ad,.footerad,.forumtopad,.freedownload_ads,.frn_adbox,.frn_cont_adbox,.frontads,.frontpage-google-ad,.ft-ad,.ftdAdBar,.ftdContentAd,.full_ad_box,.full_width_ad,.fullbannerad,.g3rtn-ad-site,.gAdRows,.gAdSky,.gAdvertising,.g_ggl_ad,.ga-ads,.ga-textads-bottom,.ga-textads-top,.gaTeaserAds,.gaTeaserAdsBox,.gads_cb,.gads_container,.gallery_ad,.gam_ad_slot,.gameAd,.gamesPage_ad_content,.gbl_advertisement,.gen_side_ad,.gglAds,.global_banner_ad,.googad,.googads,.google-ad,.google-ad-container,.google-ads,.google-ads-boxout,.google-ads-slim,.google-adsense,.google-right-ad,.google-sponsored-ads,.google-sponsored-link,.google468,.google468_60,.googleAd,.googleAd-content,.googleAd-list,.googleAd300x250_wrapper,.googleAdBox,.googleAdSense,.googleAdSenseModule,.googleAd_body,.googleAds,.googleAds_article_page_above_comments,.googleAdsense,.googleContentAds,.googleProfileAd,.googleSearchAd_content,.googleSearchAd_sidebar,.google_ad,.google_ad_wide,.google_add_container,.google_ads,.google_ads_bom_title,.google_ads_content,.google_adsense_footer,.googlead,.googleaddiv,.googleaddiv2,.googleads,.googleads_300x250,.googleads_title,.googleadsense,.googleafc,.googley_ads,.gpAdBox,.gpAds,.gradientAd,.grey-ad-line,.group_ad,.gsAd,.gsfAd,.gt_ad,.gt_ad_300x250,.gt_ad_728x90,.gt_adlabel,.gutter-ad-left,.gutter-ad-right,.gx_ad,.h-ad-728x90-bottom,.h_Ads,.h_ad,.half-ad,.half_ad_box,.hcf-ad,.hcf-ad-rectangle,.hcf-cms-ad,.hd_advert,.hdr-ads,.head_ad,.header-ad,.header-advert,.header-google-ads,.header-taxonomy-image-sponsor,.headerAd,.headerAdCode,.headerAds,.headerAdvert,.headerTextAd,.header_ad,.header_ad_center { display:none !important; } .header_ad_div,.header_ads,.header_advertisement,.header_advertisment,.headerad,.headerad-720,.hi5-ad,.highlightsAd,.hm_advertisment,.hn-ads,.home-ad-links,.homeAd,.homeAd1,.homeAd2,.homeAdBoxA,.homeAdBoxBetweenBlocks,.homeAdBoxInBignews,.homeAdSection,.homeMediumAdGroup,.home_ad_bottom,.home_advertisement,.home_advertorial,.home_mrec_ad,.homead,.homepage-ad,.homepage300ad,.homepageFlexAdOuter,.homepageMPU,.homepage_middle_right_ad,.homepageinline_adverts,.hor_ad,.horiz_adspace,.horizontalAd,.horizontal_ad,.horizontal_ads,.horizontaltextadbox,.horizsponsoredlinks,.hortad,.houseAd1,.houseAdsStyle,.housead,.hoverad,.hp-col4-ads,.hp2-adtag,.hp_ad_cont,.hp_ad_text,.hp_t_ad,.hp_w_ad,.hpa-ad1,.html-advertisement,.ic-ads,.ico-adv,.idMultiAd,.iframe-ad,.image-advertisement,.imageAd,.imageads,.imgad,.in-page-ad,.in-story-ads,.in-story-text-ad,.inStoryAd-news2,.indEntrySquareAd,.indie-sidead,.indy_googleads,.infoBoxThreadPageRankAds,.inhousead,.inline-ad,.inline-mpu,.inline-mpu-left,.inlineSideAd,.inline_ad,.inline_ad_title,.inlinead,.inlineadsense,.inlineadtitle,.inlist-ad,.inlistAd,.inner-advt-banner-3,.innerAds,.innerad,.inpostad,.insert_advertisement,.insertad,.insideStoryAd,.inteliusAd_image,.interest-based-ad,.internalAdsContainer,.iprom-ad,.is24-adplace,.isAd,.islandAd,.islandAdvert,.islandad,.itemAdvertise,.jimdoAdDisclaimer,.jp-advertisment-promotional,.js-advert,.kdads-empty,.kdads-link,.kw_advert,.kw_advert_pair,.l_ad_sub,.label-ad,.labelads,.largeRecAdNewsContainerRight,.largeRectangleAd,.largeUnitAd,.large_ad,.lastRowAd,.lazyload_ad,.lcontentbox_ad,.leadAd,.leaderAdSlot,.leaderAdTop,.leaderAdvert,.leaderBoardAdHolder,.leaderOverallAdArea,.leader_ad,.leaderboardAd,.leaderboardAdContainer,.leaderboardAdContainerInner,.leaderboard_ad,.leaderboardad,.leaderboardadtop,.left-ad,.left-advert,.leftAd,.leftAdColumn,.leftAds,.left_ad,.left_ad_box,.left_adlink,.left_ads,.left_adsense,.leftad,.leftadtag,.leftbar_ad_160_600,.leftbarads,.leftbottomads,.leftnavad,.lgRecAd,.lg_ad,.ligatus,.linead,.link_adslider,.link_advertise,.live-search-list-ad-container,.livingsocial-ad,.ljad,.local-ads,.log_ads,.logoAds,.logoad,.logoutAd,.longAd,.longAdBox,.lowerAds,.lr-ad,.m-ad-tvguide-box,.m4-adsbygoogle,.m_banner_ads,.macAd,.macad,.main-ad,.main-advert,.main-tabs-ad-block,.mainAd,.mainLeftAd,.mainLinkAd,.mainRightAd,.main_ad,.main_ad_bg_div,.main_adbox,.main_ads,.main_intro_ad,.map_media_banner_ad,.marginadsthin,.marketing-ad,.masthead_topad,.matador_sidebar_ad_600,.mdl-ad,.media-advert,.mediaAd,.mediaAdContainer,.mediaResult_sponsoredSearch,.medium-rectangle-ad,.mediumRectangleAdvert,.medium_ad,.medrect_ad,.member-ads,.menuItemBannerAd,.menueadimg,.messageBoardAd,.mf-ad300-container,.micro_ad,.mid_ad,.mid_page_ad,.midad,.middle-ad,.middleAds,.middlead,.middleads,.min_navi_ad,.mini-ad,.miniad,.miscAd,.mmc-ad,.mmcAd_Iframe,.mod-ad-lrec,.mod-ad-n,.mod-adopenx,.mod-vertical-ad,.mod_admodule,.module-ad,.module-ad-small,.module-ads,.module-advertisement,.module-sponsored-ads,.moduleAd,.moduleAdvertContent,.module_ad,.module_box_ad,.modulegad,.moduletable-advert,.moduletable-googleads,.moduletablesquaread,.mos-ad,.mpu-ad,.mpu-ad-con,.mpu-advert,.mpu-footer,.mpu-fp,.mpu-title,.mpu-top-left,.mpu-top-left-banner,.mpu-top-right,.mpu01,.mpuAd,.mpuAdSlot,.mpuAdvert,.mpuArea,.mpuBox,.mpuContainer,.mpuHolder,.mpuTextAd,.mpu_ad,.mpu_advert,.mpu_container,.mpu_gold,.mpu_holder,.mpu_platinum,.mpu_side,.mpu_text_ad,.mpuad,.mpuholderportalpage,.mrec_advert,.ms-ads-link,.msfg-shopping-mpu,.mvw_onPageAd1,.mwaads,.my-ad250x300,.nSponsoredLcContent,.nSponsoredLcTopic,.nadvt300,.narrow_ad_unit,.narrow_ads,.navAdsBanner,.navBads,.nav_ad,.navadbox,.navcommercial,.navi_ad300,.naviad,.nba300Ad,.nbaT3Ad160,.nbaTVPodAd,.nbaTwo130Ads,.nbc_ad_carousel_wrp,.newPex_forumads,.newTopAdContainer,.newad,.newsAd,.news_article_ad_google,.newsviewAdBoxInNews,.newsvinemsn_adtype,.nexusad,.nf-adbox,.nn-mpu,.noAdForLead,.normalAds,.nrAds,.nsAdRow,.nu2ad,.oas-ad,.oas-bottom-ads,.oas_ad,.oas_advertisement,.offer_sponsoredlinks,.oio-banner-zone,.oio-link-sidebar,.oio-zone-position,.on_single_ad_box,.onethirdadholder,.openads,.openadstext_after,.openx,.openx-ad,.openx_ad,.osan-ads,.other_adv2,.outermainadtd1,.ovAdPromo,.ovAdSky,.ovAdartikel,.ov_spns,.ovadsenselabel,.pageAds,.pageBottomGoogleAd,.pageGoogleAd,.pageGoogleAdFlat,.pageGoogleAdSubcontent,.pageGoogleAds,.pageGoogleAdsContainer,.pageLeaderAd,.page_content_right_ad,.pagead,.pageads,.pagenavindexcontentad,.paneladvert,.partner-ad,.partner-ads-container,.partnerAd,.partnersTextLinks,.pencil_ad,.player_ad_box,.player_hover_ad,.player_page_ad_box,.plista_inimg_box,.pm-ad,.pmad-in2,.pnp_ad,.pod-ad-300,.podRelatedAdLinksWidget,.podSponsoredLink,.portalCenterContentAdBottom,.portalCenterContentAdMiddle,.portalCenterContentAdTop,.portal_searchresultssponsoredlist,.portalcontentad,.post-ad,.postAd,.post_ad,.post_ads,.post_sponsor_unit,.postbit_adbit_register,.postbit_adcode,.postgroup-ads,.postgroup-ads-middle,.prebodyads,.premium_ad_container,.promoAd,.promoAds,.promo_ad,.promoboxAd,.promotionTextAd,.ps-ligatus_placeholder,.pub_300x250,.pub_300x250m,.pub_728x90,.publication-ad,.publicidad,.puff-advertorials,.qa_ad_left,.qm-ad-content,.qm-ad-content-news,.quigo-ad,.qzvAdDiv,.r_ad_1,.r_ad_box,.r_ads,.rad_container,.rect_ad_module,.rectad,.rectangle-ad,.rectangleAd,.rectanglead,.redads_cont,.referrerDetailAd,.regular_728_ad,.regularad,.relatedAds,.related_post_google_ad,.relatesearchad,.remads,.resourceImagetAd,.result_ad,.reviewMidAdvertAlign,.rght300x250,.rhads,.rhs-ad,.rhs-ads-panel,.rhs-advert-container,.rhs-advert-link,.rhs-advert-title,.right-ad,.right-ad-holder,.right-ad2,.right-ads,.right-ads2,.right-sidebar-box-ad,.rightAd,.rightAdBox,.rightAdverts,.rightColAd,.rightColumnRectAd,.rightRailAd,.right_ad,.right_ad_160,.right_ad_box,.right_ad_common_block,.right_ad_text,.right_ad_top,.right_ads,.right_ads_column,.right_box_ad_rotating_container,.right_col_ad,.right_hand_advert_column,.right_side-partyad,.rightad,.rightad_1,.rightad_2,.rightadbox1,.rightads,.rightadunit,.rightbigcolumn_ads,.rightbigcolumn_ads_nobackground,.rightcol_boxad,.rightcoladvert,.rightcoltowerad,.rightmenu_ad,.rnav_ad,.rngtAd,.rot_ads,.round_box_advert,.roundedCornersAd,.roundingrayboxads,.rt_ad1_300x90,.rt_ad_300x250,.rt_ad_call,.s2k_ad,.savvyad_unit,.sb-ad-sq-bg,.sbAd,.sbAdUnitContainer,.sb_ad_holder,.sb_adsN,.sb_adsNv2,.sb_adsW,.sb_adsWv2,.scanAd,.scc_advert,.sci-ad-main,.sci-ad-sub,.search-ad,.search-results-ad,.search-sponsor,.search-sponsored,.searchAd,.searchAdTop,.searchAds,.searchSponsoredResultsBox,.searchSponsoredResultsList,.search_column_results_sponsored,.search_results_sponsored_top,.section-ad2,.section_mpu_wrapper,.section_mpu_wrapper_wrapper,.selfServeAds,.sepContentAd,.serp_sponsored,.servsponserLinks,.shoppingGoogleAdSense,.showAd_No,.showAd_Yes,.showcaseAd,.sidbaread,.side-ad,.side-ads,.side-sky-banner-160,.sideAd,.sideBoxAd,.side_ad,.side_ad2,.side_ad_1,.side_ad_2,.side_ad_3,.sidead,.sideads,.sideadsbox,.sideadvert,.sidebar-ad,.sidebar-ads,.sidebar-content-ad,.sidebar-text-ad,.sidebarAd,.sidebarAdUnit,.sidebarAdvert,.sidebar_ad,.sidebar_ad_300_250,.sidebar_ads,.sidebar_ads_336,.sidebar_adsense,.sidebar_box_ad,.sidebarad,.sidebarad_bottom,.sidebaradbox,.sidebarads,.sidebarboxad,.sideheadnarrowad,.sideheadsponsorsad,.simple_ads_manager_widget,.single-google-ad,.singleAd,.singleAdsContainer,.single_ad,.singlead,.singleadstopcstm2,.site_ad_120_600,.site_ad_300x250,.sitesponsor,.skinAd,.skin_ad_638,.sky-ad,.skyAd,.skyAdd,.skyAdvert,.skyAdvert2,.sky_ad,.sky_scraper_ad,.skyad,.skyjobsadtext,.skyscraper-ad,.skyscraper_ad,.skyscraper_bannerAdHome,.sleekadbubble,.slideshow-ad,.slpBigSlimAdUnit,.slpSquareAdUnit,.sm_ad,.smallSkyAd1,.smallSkyAd2,.small_ad,.small_ads,.smallad-left,.smallads,.smallsponsorad,.smart_ads_bom_title,.spLinks,.specialAd175x90,.speedyads,.sphereAdContainer,.spl-ads,.spl_ad,.spl_ad2,.spl_ad_plus,.splitAd,.splitAdResultsPane,.sponlinkbox,.spons-link,.spons_links,.sponslink,.sponsor-ad,.sponsor-link,.sponsor-links,.sponsor-services,.sponsorPanel,.sponsorPost,.sponsorPostWrap,.sponsorStrip,.sponsor_ad_area,.sponsor_area,.sponsor_bar,.sponsor_columns,.sponsor_footer,.sponsor_line,.sponsor_links,.sponsor_logo,.sponsoradtitle,.sponsored-ads,.sponsored-chunk,.sponsored-editorial,.sponsored-features,.sponsored-links,.sponsored-links-alt-b,.sponsored-links-holder,.sponsored-links-right,.sponsored-post,.sponsored-post_ad,.sponsored-results,.sponsored-right-border,.sponsored-text,.sponsoredBox,.sponsoredInfo,.sponsoredInner,.sponsoredLabel,.sponsoredLink,.sponsoredLinks,.sponsoredLinks2,.sponsoredLinksHeader,.sponsoredProduct,.sponsoredResults,.sponsoredSideInner,.sponsored_ads,.sponsored_box,.sponsored_box_search,.sponsored_by,.sponsored_link,.sponsored_links,.sponsored_links_title_container,.sponsored_links_title_container_top,.sponsored_links_top,.sponsored_result,.sponsored_results,.sponsored_ss,.sponsored_well,.sponsoredibbox,.sponsoredlink,.sponsoredlinks,.sponsoredlinkscontainer,.sponsoredresults,.sponsoredtextlink_container_ovt,.sponsoring_link,.sponsorlink,.sponsorlink2,.sponsormsg,.sport-mpu-box,.spotlightAd,.squareAd,.square_ad,.square_banner_ad,.squared_ad,.ss-ad-banner,.ss-ad-mpu,.standard-ad,.start__newest__big_game_container_body_games_advertising,.staticAd,.stickyAdLink,.stock-ticker-ad-tag,.stocks-ad-tag,.store-ads,.story_AD,.story_ad_div,.story_right_adv,.storyad,.subad,.subadimg,.subcontent-ad,.subtitle-ad-container,.sugarad,.super-ad,.supercommentad_left,.supercommentad_right,.supp-ads,.supportAdItem,.surveyad,.t10ad,.tab_ad,.tab_ad_area,.tablebordersponsor,.tadsanzeige,.tadsbanner,.tadselement,.tallad,.tblTopAds,.tbl_ad,.tbox_ad,.td-Adholder,.td-TrafficWeatherWidgetAdGreyBrd,.teaser-sponsor,.teaserAdContainer,.teaser_adtiles,.teaser_advert_content,.text-ad,.text-ad-links,.text-ads,.text-advertisement,.text-g-advertisement,.text-g-group-short-rec-ad,.text-g-net-grp-google-ads-article-page,.textAd,.textAdBox,.textAds,.text_ad,.text_ads,.textad,.textadContainer,.textad_headline,.textadbox,.textadheadline,.textadlink,.textads,.textads_left,.textads_right,.textadsds,.textadsfoot,.textadtext,.textadtxt,.textadtxt2,.textlink-ads,.textlinkads,.tf_page_ad_search,.thirdage_ads_300x250,.thirdage_ads_728x90,.thisIsAd,.thisIsAnAd,.ticket-ad,.tileAds,.tips_advertisement,.title-ad,.title_adbig,.tncms-region-ads,.toolad,.toolbar-ad,.top-ad,.top-ad-space,.top-ads,.top-banner-ad,.top-left-nav-ad,.top-menu-ads,.topAd,.topAdWrap,.topAds,.topAdvertisement,.topAdverts,.topBannerAd,.topLeaderboardAd,.top_Ad,.top_ad,.top_ad1,.top_ad_728,.top_ad_728_90,.top_ad_disclaimer,.top_ad_div,.top_ad_post,.top_ad_wrapper,.top_ads,.top_advert,.top_advertisement,.top_advertising_lb,.top_bar_ad,.top_container_ad,.topad,.topad-bar,.topadbox,.topads,.topadspot,.topadvertisementsegment,.topboardads,.topcontentadvertisement,.topic_inad,.topstoriesad,.toptenAdBoxA,.tourFeatureAd,.tower-ad,.towerAd,.towerAdLeft,.towerAds,.tower_ad,.tower_ad_disclaimer,.towerad,.tr-ad-adtech-placement,.tribal-ad,.ts-ad_unit_bigbox,.ts-banner_ad,.ttlAdsensel,.tto-sponsored-element,.tucadtext,.tvs-mpu,.twoColumnAd,.twoadcoll,.twoadcolr,.tx_smartadserver_pi1,.txt-ads,.txtAd,.txtAds,.txt_ads,.txtadvertise,.type_adscontainer,.type_miniad,.type_promoads,.ukAds,.ukn-banner-ads,.under_ads,.undertimyads,.unit-ad,.universalboxADVBOX01,.universalboxADVBOX03,.universalboxADVBOX04a,.usenext,.v5rc_336x280ad,.vert-ads,.vert-adsBlock,.vertad,.vertical-adsense,.vidadtext,.videoAd,.videoBoxAd,.video_ad,.view-promo-mpu-right,.view_rig_ad,.virgin-mpu,.wa_adsbottom,.wantads,.weather_ad,.webads336x280,.wide-ad,.wide-advert,.wide-skyscraper-ad,.wideAd,.wideAdTable,.wide_ad,.wide_ad_unit_top,.wide_ads,.wide_google_ads,.widget-ad,.widget-ad-codes,.widget-ad300x250,.widget-entry-ads-160,.widgetYahooAds,.widget_ad,.widget_ad_boxes_widget,.widget_ad_rotator,.widget_adrotate_widgets,.widget_advert_widget,.widget_econaabachoadswidget,.widget_island_ad,.widget_maxbannerads,.widget_sdac_bottom_ad_widget,.widget_sdac_footer_ads_widget,.widget_sdac_skyscraper_ad_widget,.wikia-ad,.wikia_ad_placeholder,.wingadblock,.withAds,.wl-ad,.wnMultiAd,.wp125_write_ads_widget,.wp125ad,.wp125ad_2,.wpn_ad_content,.wrap-ads,.wrapper-ad,.wrapper-ad-sidecol,.wsSponsoredLinksRight,.wsTopSposoredLinks,.x03-adunit,.x04-adunit,.x81_ad_detail,.xads-blk-top-hld,.xads-blk2,.xads-ojedn,.y-ads,.y-ads-wide,.y7-advertisement,.yahoo-sponsored,.yahoo-sponsored-links,.yahooAd,.yahooAds,.yahoo_ads,.yahooad,.yahooad-image,.yahooad-urlline,.yan-sponsored,.ygrp-ad,.yom-ad,.youradhere,.yrail_ad_wrap,.yrail_ads,.ysmsponsor,.ysponsor,.yw-ad,.zRightAdNote,a[href*="/adrotate/adrotate-out.php?"],a[href^="http://ad-apac.doubleclick.net/"],a[href^="http://ad-emea.doubleclick.net/"],a[href^="http://ad.doubleclick.net/"],a[href^="http://ads.pheedo.com/"],a[href^="http://adserving.liveuniversenetwork.com/"],a[href^="http://api.ringtonematcher.com/"],a[href^="http://galleries.pinballpublishernetwork.com/"],a[href^="http://galleries.securewebsiteaccess.com/"],a[href^="http://install.securewebsiteaccess.com/"],a[href^="http://latestdownloads.net/download.php?"],a[href^="http://secure.signup-page.com/"],a[href^="http://secure.signup-way.com/"],a[href^="http://www.FriendlyDuck.com/AF_"],a[href^="http://www.adbrite.com/mb/commerce/purchase_form.php?"],a[href^="http://www.firstload.de/affiliate/"],a[href^="http://www.friendlyduck.com/AF_"],a[href^="http://www.google.com/aclk?"],a[href^="http://www.liutilities.com/aff"],a[href^="http://www.liutilities.com/products/campaigns/adv/"],a[href^="http://www.my-dirty-hobby.com/?sub="],a[href^="http://www.ringtonematcher.com/"],#mbEnd[cellspacing="0"][cellpadding="0"],#mclip_container:last-child,#ssmiwdiv[jsdisplay],#tads.c,#tadsb.c,#tadsto.c,.ch[onclick="ga(this,event)"],.ra[align="left"][width="30%"],.ra[align="right"][width="30%"],div[style="background:#fbf0fa;margin:0 0 14px;min-height:0;padding-top:2px;padding-bottom:1px;padding-right:8px;padding-left:7px"],DIV[id="iSaySlider"] { display:none !important; }</style>
+<body><div style="visibility: hidden; height: 1px; width: 1px; position: absolute; z-index: 100000; " id="_atssh"><iframe id="_atssh764" title="AddThis utility frame" style="height: 1px; width: 1px; position: absolute; z-index: 100000; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-image: initial; left: 0px; top: 0px; " src="./guide_files/sh69.html"></iframe></div>
+    
+<div id="wrapper2">
+<img src="./guide_files/header-left.gif" alt="logo" style="float: left;">
+<div id="header"> <a href="http://www.londatiga.net/"><img src="./guide_files/logo.gif" alt="logo" class="logo"></a>
+    <!--Begin Pages Navigation Bar-->
+    <img src="./guide_files/pages-left.gif" alt="logo" style="float: left; margin-left: 22px;">
+    <div id="navigation">
+        <ul class="nav superfish sf-js-enabled sf-shadow" id="nav2">
+            <li class="page_item"><a href="http://www.londatiga.net/">Home</a></li>
+            <li class="page_item page-item-2"><a href="http://www.londatiga.net/about/" title="About">About</a></li>
+<li class="page_item page-item-621"><a href="http://www.londatiga.net/my-apps/" title="My Apps" class="sf-with-ul">My Apps<span class="sf-sub-indicator"> »</span></a>
+<ul style="display: none; visibility: hidden; ">
+	<li class="page_item page-item-662"><a href="http://www.londatiga.net/my-apps/anreboot/" title="AnReboot">AnReboot</a></li>
+	<li class="page_item page-item-664"><a href="http://www.londatiga.net/my-apps/blitzdroid/" title="BlitzDroid">BlitzDroid</a></li>
+	<li class="page_item page-item-667"><a href="http://www.londatiga.net/my-apps/savepoint/" title="SavePoint">SavePoint</a></li>
+	<li class="page_item page-item-713"><a href="http://www.londatiga.net/my-apps/javelt/" title="Javelt">Javelt</a></li>
+	<li class="page_item page-item-719"><a href="http://www.londatiga.net/my-apps/tagihanlistrik/" title="TagihanListrik">TagihanListrik</a></li>
+	<li class="page_item page-item-725"><a href="http://www.londatiga.net/my-apps/tagihantelkom/" title="TagihanTelkom">TagihanTelkom</a></li>
+	<li class="page_item page-item-801"><a href="http://www.londatiga.net/my-apps/cektagihan/" title="CekTagihan">CekTagihan</a></li>
+	<li class="page_item page-item-812"><a href="http://www.londatiga.net/my-apps/komodonesia/" title="Komodonesia">Komodonesia</a></li>
+	<li class="page_item page-item-900"><a href="http://www.londatiga.net/my-apps/indonesia-flightboard/" title="Indonesia FlightBoard">Indonesia FlightBoard</a></li>
+</ul>
+</li>
+<li class="page_item page-item-123"><a href="http://www.londatiga.net/projects/" title="Projects" class="sf-with-ul">Projects<span class="sf-sub-indicator"> »</span></a>
+<ul style="display: none; visibility: hidden; ">
+	<li class="page_item page-item-395"><a href="http://www.londatiga.net/projects/gstaticmap/" title="GStaticMap WP Plugin">GStaticMap WP Plugin</a></li>
+</ul>
+</li>
+<li class="page_item page-item-81"><a href="http://www.londatiga.net/site-map/" title="Site Map">Site Map</a></li>
+<li class="page_item page-item-325"><a href="http://www.londatiga.net/contact/" title="Contact">Contact</a></li>
+<li class="page_item page-item-318"><a href="http://www.londatiga.net/privacy-policy/" title="Privacy Policy">Privacy Policy</a></li>
+        </ul>
+    </div>
+    <img src="./guide_files/pages-right.gif" alt="logo" style="float: left;">
+    <!--End Pages Navigation Bar-->
+    <div style="clear: both;"></div>
+    <!--Begin Categories Navigation Bar-->
+    <img src="./guide_files/categories-top.gif" alt="cat top" style="float: left; margin-top: 20px; margin-left: 7px;">
+    <div style="clear: both;"></div>
+    <div id="categories-inside">
+        <div style="clear: both;"></div>
+        <ul class="nav superfish sf-js-enabled sf-shadow">
+            	<li class="cat-item cat-item-18"><a href="http://www.londatiga.net/category/aviation/" title="Aviation Hobby" class="sf-with-ul">Aviation<span class="sf-sub-indicator"> »</span></a>
+<ul class="children" style="display: none; visibility: hidden; ">
+	<li class="cat-item cat-item-20"><a href="http://www.londatiga.net/category/aviation/flight-simulator/" title="Flight Simulator">Flight Simulator</a>
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-72"><a href="http://www.londatiga.net/category/featured-articles/" title="View all posts filed under Featured Articles">Featured Articles</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://www.londatiga.net/category/general/" title="View all posts filed under General">General</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="http://www.londatiga.net/category/it/" title="Information Technology" class="sf-with-ul">Information Technology<span class="sf-sub-indicator"> »</span></a>
+<ul class="children" style="display: none; visibility: hidden; ">
+	<li class="cat-item cat-item-412"><a href="http://www.londatiga.net/category/it/blackberry-it/" title="View all posts filed under Blackberry">Blackberry</a>
+</li>
+	<li class="cat-item cat-item-73"><a href="http://www.londatiga.net/category/it/programming/" title="View all posts filed under Programming" class="sf-with-ul">Programming<span class="sf-sub-indicator"> »</span></a>
+	<ul class="children" style="display: none; visibility: hidden; ">
+	<li class="cat-item cat-item-275"><a href="http://www.londatiga.net/category/it/programming/android/" title="View all posts filed under Android">Android</a>
+</li>
+	<li class="cat-item cat-item-136"><a href="http://www.londatiga.net/category/it/programming/flex/" title="View all posts filed under Flex">Flex</a>
+</li>
+	<li class="cat-item cat-item-91"><a href="http://www.londatiga.net/category/it/programming/java-script/" title="View all posts filed under Java Script">Java Script</a>
+</li>
+	<li class="cat-item cat-item-355"><a href="http://www.londatiga.net/category/it/programming/mysql-programming-it/" title="View all posts filed under MySQL">MySQL</a>
+</li>
+	<li class="cat-item cat-item-74"><a href="http://www.londatiga.net/category/it/programming/programming-programming-it/" title="PHP programming ">PHP</a>
+</li>
+	</ul>
+</li>
+	<li class="cat-item cat-item-76"><a href="http://www.londatiga.net/category/it/software/" title="View all posts filed under Software" class="sf-with-ul">Software<span class="sf-sub-indicator"> »</span></a>
+	<ul class="children" style="display: none; visibility: hidden; ">
+	<li class="cat-item cat-item-130"><a href="http://www.londatiga.net/category/it/software/linux-software-it/" title="Linux tips and tricks">Linux</a>
+</li>
+	<li class="cat-item cat-item-144"><a href="http://www.londatiga.net/category/it/software/windows/" title="View all posts filed under Windows">Windows</a>
+</li>
+	</ul>
+</li>
+	<li class="cat-item cat-item-379"><a href="http://www.londatiga.net/category/it/web/" title="View all posts filed under Web">Web</a>
+</li>
+</ul>
+</li>
+        </ul>
+        <div style="clear: both;"></div>
+        <img src="./guide_files/categories-bottom.gif" alt="cat top" style="float: left;"> </div>
+    <!--End Categories Navigation Bar-->
+</div>
+<img src="./guide_files/header-right.gif" alt="logo" style="float: left;"> 
+<div id="container">
+<div id="left-div">
+    <div id="left-inside">
+                        <!--Begin Post Single-->
+        <div class="post-wrapper">
+            <!--Begin Share Button-->
+           <script type="text/javascript"><!--
+google_ad_client = "pub-7633089011736709";
+/* 468x15, created 11/24/09 */
+google_ad_slot = "7834179025";
+google_ad_width = 468;
+google_ad_height = 15;
+//-->
+
+</script>
+<script type="text/javascript" src="./guide_files/show_ads.js">
+</script> <br>
+            <!--End Share Button-->
+            <div style="clear: both;"></div>
+            <h1 class="post-title"><a href="./guide_files/guide.html" rel="bookmark" title="Permanent Link to How to Create Android Update Zip Package">
+                How to Create Android Update Zip Package                </a></h1>
+            <div class="post-info">Posted by
+                <a rel="author" href="http://www.londatiga.net/about/">lorenz</a>
+                in
+                <a href="http://www.londatiga.net/category/it/programming/android/" title="View all posts in Android" rel="category tag">Android</a>,  <a href="http://www.londatiga.net/category/featured-articles/" title="View all posts in Featured Articles" rel="category tag">Featured Articles</a>,  <a href="http://www.londatiga.net/category/it/" title="View all posts in Information Technology" rel="category tag">Information Technology</a>                on
+                06 2nd, 2010                | <a href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/#postcomment" title="Leave a comment">
+                27 responses                </a></div>
+            <div style="clear: both;"></div>
+
+<a href="http://www.londatiga.net/">Home</a> » <a href="http://www.londatiga.net/category/it/" title="View all posts in Information Technology">Information Technology</a> » <a href="http://www.londatiga.net/category/it/programming/" title="View all posts in Programming">Programming</a> » <a href="http://www.londatiga.net/category/it/programming/android/" title="View all posts in Android">Android</a> » <strong>How to Create Android Update Zip Package</strong><div style="margin-bottom:15px;"></div>
+<script type="text/javascript"><!--
+google_ad_client = "pub-7633089011736709";
+/* 300x250, created 11/26/09 */
+google_ad_slot = "8765324292";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript" src="./guide_files/show_ads.js">
+</script>
+            <div class="tweetmeme_button" style="float:right"><iframe src="./guide_files/button.html" height="61" width="50" frameborder="0" scrolling="no"></iframe><br><br><script>var fbShare = {
+size: 'large',google_analytics: 'true'}</script>
+<script src="./guide_files/fbshare.js"></script><iframe src="./guide_files/fbshare.html" width="53" height="69" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+<br><br>
+	<script type="text/javascript">
+digg_url = 'http://www.londatiga.net/it/how-to-create-android-update-zip-package/';
+
+digg_title = 'How to Create Android Update Zip Package';
+
+</script>
+<script src="./guide_files/diggthis.js" type="text/javascript"></script><span class="db-wrapper db-clear db-large"><span><span class="db-container"><span class="db-body db-large"><span class="db-count">1</span><span class="db-copy">digg</span><a class="db-anchor">digg</a></span></span></span></span> </div><p>There are several ways to install applications or&nbsp; library files to an <a title="Android" href="http://www.android.com/" target="_blank">Android</a> <a href="http://www.londatiga.net/it/samsung-i5700-galaxy-spica-android-2-1-flashing-guide/" target="_blank">Phone</a>. You can use <em>Market</em> application to find and install or <a title="Android ADB Tool" href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/developer.android.com/guide/developing/tools/adb.html" target="_blank">adb</a> command line tool to install or push the files to Android file system. These are all easy to implement for&nbsp; single&nbsp; file but if you have several applications or library files to install at once, it might be better to use <strong>update zip</strong> file. The update zip file is Android advanced system to install applications or lib files to Android file system using recovery tool. This method is commonly used by rom or theme developers to distribute their package.</p>
+<p>Creating an update zip file is quite easy, all you have to do is put the files in corresponding directory in Android file system and an <span style="color: #008000;">update-script</span> file to copy the files. For example, to install <span style="color: #008000;">Calculator.apk </span>into<span style="color: #008000;"> system/app</span> and copy <span style="color: #008000;">libsec-ril.so</span> file into<span style="color: #008000;"> system/lib</span> :</p>
+<ul>
+<li>Create an empty folder (eg. C:\myupdate)</li>
+<li>Create <span style="color: #008000;">C:\myupdate\system\app</span> folder for <span style="color: #008000;">Calculator.apk</span> and&nbsp;<span style="color: #008000;"> C:\myupdate\system\lib</span> folder for <span style="color: #008000;">libsec-ril.so</span></li>
+<li>Create <span style="color: #008000;">C:\myupdate\META-INF\com\google\android</span> folder for <span style="color: #008000;">update-script</span> file.</li>
+<li>Create the<span style="color: #008000;"> update-script</span> file with the following syntax:</li>
+<div><div id="highlighter_731301" class="syntaxhighlighter  plain"><div class="toolbar"><span><a href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="plain plain">show_progress 0.1 0</code></div><div class="line number2 index1 alt1">&nbsp;</div><div class="line number3 index2 alt2"><code class="plain plain">copy_dir PACKAGE:system SYSTEM:</code></div><div class="line number4 index3 alt1">&nbsp;</div><div class="line number5 index4 alt2"><code class="plain plain">show_progress 0.1 10</code></div></div></td></tr></tbody></table></div></div>
+<p>Line 1&amp;5 : show progress bar<br>
+Line 3: copy <span style="color: #008000;">s<span style="color: #008000;">ystem</span></span> folder from update package to Android’s<span style="color: #008000;"> /system</span></p>
+<p>Note: you should add one extra&nbsp; line at the end of the file (Line 6)</p>
+<li>Compress the entire contents of <span style="color: #008000;">C:\myupdate</span> folder to zip (not the <span style="color: #008000;">myupdate </span>folder itself)</li>
+<li>Sign the <span style="color: #008000;">myupdate.zip</span> file</li>
+<p><span style="color: #008000;">java -jar signapk.jar certificate.pem key.pk8 myupdate.zip update.zip</span></p>
+<p>Note: you can find tutorial on how to sign the update.zip file <a title="How to sign android update.zip file" href="http://www.londatiga.net/it/how-to-sign-apk-zip-files/" target="_blank">here</a></p>
+<li>Copy the <span style="color: #008000;">update.zip</span> file to sdcard and apply it from recovery console</li>
+</ul>
+<p>update-script syntax reference (definitions from recovery.c android source code):</p>
+<ul>
+<li><strong>copy_dir</strong></li>
+<p>Syntax:<span style="color: #008000;"> copy_dir &lt;src-dir&gt; &lt;dst-dir&gt; [&lt;timestamp&gt;]</span><br>
+Copy the contents  of &lt;src-dir&gt; to&nbsp; &lt;dst-dir&gt;. The original contents of &lt;dst-dir&gt; are preserved unless something in  &lt;src-dir&gt; overwrote them.<br>
+Ex: <span style="color: #008000;">copy_dir PACKAGE:system SYSTEM:</span></p>
+<li><strong>format</strong></li>
+<p>Syntax: format &lt;root&gt;<br>
+Format a partiti0n<br>
+Ex:<strong> </strong><span style="color: #008000;">format SYSTEM:</span>, will format entire<span style="color: #008000;"> /system</span> . Note: formatting erases data irreversibly.</p>
+<li><strong>delete</strong></li>
+<p>Syntax: <span style="color: #008000;">delete  &lt;file1&gt; [... &lt;fileN&gt;]</span><br>
+Delete&nbsp; file.<br>
+EX: <span style="color: #008000;">delete SYSTEM:app/Calculator.apk</span>, will delete <span style="color: #008000;">Calculator.apk</span> from <span style="color: #008000;">system/app</span> directory.</p>
+<li><strong>delete_recursive</strong></li>
+<p>Syntax: <span style="color: #008000;">delete_recursive  &lt;file-or-dir1&gt; [... &lt;file-or-dirN&gt;]</span><br>
+Delete a file or directory with all of it’s contents recursively<br>
+Ex: <span style="color: #008000;">delete_recursive DATA:dalvik-cache</span>, will delete<span style="color: #008000;"> /data/dalvik-cache</span> directory with all of it’s contents</p>
+<li><strong>run_program</strong></li>
+<p>Syntax:<span style="color: #008000;"> run_program &lt;program-file&gt; [&lt;args&gt; ...]</span><br>
+Run an external program included in the update package.<br>
+Ex: <span style="color: #008000;">run_program PACKAGE:install_busybox.sh</span>, will run<span style="color: #008000;"> install_busybox.sh</span> script (shell command) included in the update package.</p>
+<li><strong>set_perm</strong></li>
+<p>Syntax: <span style="color: #008000;">set_perm &lt;uid&gt; &lt;gid&gt; &lt;mode&gt; &lt;path&gt; [... &lt;pathN&gt;]</span><br>
+Set ownership and permission of single file or entire directory trees, like ‘chmod’, ‘chown’, and ‘chgrp’ all in one<br>
+Ex:<span style="color: #008000;"> set_perm 0 2000 0550 SYSTEM:etc/init.goldfish.sh</span></p>
+<li><strong>set_perm_recursive</strong></li>
+<p>Syntax: <span style="color: #008000;">set_perm_recursive &lt;uid&gt; &lt;gid&gt; &lt;dir-mode&gt; &lt;file-moe&gt; &lt;path&gt; [... &lt;pathN&gt;]</span><br>
+Set ownership and permission of a directory with all of it’s contents recursively</p>
+<p>Ex: <span style="color: #008000;">set_perm_recursive 0 0 0755 0644 SYSTEM:app</span></p>
+<li><strong>show_progress </strong></li>
+<p>Syntax: <span style="color: #008000;">show_progress</span> <span style="color: #008000;">&lt;fraction&gt; &lt;duration&gt;</span><br>
+Use  of the on-screen progress meter for the next operation, automatically advancing the meter over  &lt;duration&gt; seconds (or more rapidly if the actual rate of progress can be determined).<br>
+Ex: <span style="color: #008000;">show_progress 0.1 0</span></p>
+<li><strong>symlink</strong></li>
+<p>Syntax: <span style="color: #008000;">symlink &lt;link-target&gt; &lt;link-path&gt;</span></p>
+<p>Create a symlink (like ‘ln-s’). The &lt;link-path&gt; is in root:path format, but &lt;link-target&gt; is<br>
+for the target filesystem (and may be relative)</p></ul>
+<p>Definition of roots and partitions (from root.c android source code)</p>
+<pre style="margin: 0px; padding: 6px; border: 1px inset; width: 540px; height: 386px; text-align: left; overflow: auto;" dir="ltr"> ROOT:     (Linux block device) /mountpoint/ fs, size
+    Description.
+
+  BOOT:     (/dev/mtdblock[?]) / (RAM)  Raw
+    Kernel, ramdisk and  boot config.
+  DATA:     (/dev/mtdblock5)   /data/   yaffs2, 91904kb
+    User, system config,  app config, and apps (without  a2sd)
+  CACHE:    (/dev/mtdblock4)   /cache/  yaffs2, 30720kb
+    OTA cache,  Recovery/update config and temp
+  MISC:     (/dev/mtdblock[?]) N/A     Raw
+    [TODO: Get info on MISC:]
+  PACKAGE:  (Relative to package file) N/A
+    Pseudo-filesystem for update  package.
+  RECOVERY: (/dev/mtdblock[?]) / (RAM) Raw,     [?]kb
+    The recovery  and update environment's kernel and ramdisk.
+    Similar to BOOT:.
+  SDCARD:   (/dev/<strong>mmcblk</strong>0(p1)) /sdcard/ fat32,  32MB-32GB
+    The microSD card. Update zip is usually here.
+  SYSTEM:   (/dev/mtdblock3)   /system/ yaffs2, 92160kb
+    The OS partition,    static and read-only.
+  TMP:                         /tmp/    in RAM
+    Standard Linux temporary directory.
+    Cleared on poweroff/reboot.</pre>
+            <div class="addthis_toolbox addthis_default_style" style="padding-top:10px;padding-bottom:10px">    <a href="http://addthis.com/bookmark.php?v=250" class="addthis_button_compact at300m"><span class="at300bs at15nc at15t_compact"></span>Share</a>    <span class="addthis_separator"> </span>    <a class="addthis_button_facebook at300b" title="Send to Facebook" href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/#"><span class="at300bs at15nc at15t_facebook"></span></a>    <a class="addthis_button_twitter at300b" title="Tweet This" href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/#"><span class="at300bs at15nc at15t_twitter"></span></a>        <a class="addthis_button_googlebuzz at300b" href="http://www.addthis.com/bookmark.php?v=250&winname=addthis&pub=lorensiuswlt&source=tbx-250&lng=it&s=googlebuzz&url=http%3A%2F%2Fwww.londatiga.net%2Fit%2Fhow-to-create-android-update-zip-package%2F&title=How%20to%20Create%20Android%20Update%20Zip%20Package%20%7C%20All%20About%20Web%20%26%20Mobile%20Application%20Development&ate=AT-lorensiuswlt/-/-/4ed4ea2c89b091b4/1&frommenu=1&uid=4ed4ea2cc1a5eefe&ct=1&pre=http%3A%2F%2Fwww.londatiga.net%2Fcategory%2Fit%2Fprogramming%2Fandroid%2Fpage%2F2%2F&tt=0" target="_blank" title="Send to Google Buzz"><span class="at300bs at15nc at15t_googlebuzz"></span></a>    <a class="addthis_button_email at300b" title="Email" href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/#"><span class="at300bs at15nc at15t_email"></span></a>    <span class="addthis_separator"> </span>    <a class="addthis_button_facebook_like at300b" title="Send to Facebook_like" href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/#"><iframe style="overflow-x: hidden; overflow-y: hidden; border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; border-width: initial; border-color: initial; border-image: initial; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; width: 90px; height: 25px; " src="./guide_files/like.html"></iframe></a>
+			<!-- Place this tag where you want the +1 button to render -->
+<div id="___plusone_0" style="height: 20px; width: 90px; display: inline-block; text-indent: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: transparent; border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; background-position: initial initial; background-repeat: initial initial; "><iframe allowtransparency="true" frameborder="0" hspace="0" id="I1_1322576429738" marginheight="0" marginwidth="0" name="I1_1322576429738" scrolling="no" src="./guide_files/fastbutton.html" style="width: 90px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; height: 20px; position: static; left: 0px; top: 0px; visibility: visible; " tabindex="-1" vspace="0" width="100%" title="+1"></iframe></div>
+
+<!-- Place this tag after the last plusone tag -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+			<div class="atclear"></div></div>
+
+         Related post: <br>
+            <ul class="related_post"><li><a href="http://www.londatiga.net/it/how-to-enable-multitouch-on-samsung-spica/" title="How to Enable Multitouch on Samsung Spica">How to Enable Multitouch on Samsung Spica</a> (17)</li><li><a href="http://www.londatiga.net/it/how-to-share-internet-connection-between-pc-and-android-phone-using-wifi/" title="How to Share Internet Connection Between PC and Android Phone Using WiFi">How to Share Internet Connection Between PC and Android Phone Using WiFi</a> (256)</li><li><a href="http://www.londatiga.net/it/samsung-i5700-galaxy-spica-android-2-1-flashing-guide/" title="Samsung  I5700 Galaxy Spica Android 2.1 Flashing Guide">Samsung  I5700 Galaxy Spica Android 2.1 Flashing Guide</a> (1149)</li><li><a href="http://www.londatiga.net/it/how-to-import-contacts-from-blackberry-into-android/" title="How to Import Contacts from Blackberry into Android">How to Import Contacts from Blackberry into Android</a> (0)</li><li><a href="http://www.londatiga.net/it/programming/coding-tips-how-to-use-custom-transition-animation-on-android/" title="Coding Tips: How to Use Custom Transition Animation in Android">Coding Tips: How to Use Custom Transition Animation in Android</a> (2)</li></ul>
+        </div>
+        <img src="./guide_files/content-white-bottom.gif" alt="bottom" style="margin-bottom: 7px; float: left;">
+        <!--End Post Single-->
+        <!--Begin Comments Template-->
+        <div class="recentposts">
+            <!-- You can start editing here. -->
+<h3 id="comments">27 Responses to “How to Create Android Update Zip Package”</h3>
+<ol class="commentlist">
+    		<li class="pingback even thread-even depth-1" id="comment-4289">
+				<div id="div-comment-4289" class="comment-body">
+				<div class="comment-author vcard">
+				<cite class="fn"><a href="http://topsy.com/trackback?utm_source=pingback&utm_campaign=L2&url=http://www.londatiga.net/it/how-to-create-android-update-zip-package/" rel="external nofollow" class="url">Tweets that mention How to Create Android Update Zip Package -- Topsy.com</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/comment-page-1/#comment-4289">June 2, 2010 at 4:36 pm</a></div>
+
+		<p>[...] This post was mentioned on Twitter by Top How To, Lorensius W. L. T. Lorensius W. L. T said: How to Create Android Update Zip Package <a href="http://goo.gl/fb/lk4vs" rel="nofollow">http://goo.gl/fb/lk4vs</a> [...]</p>
+
+		<div class="reply">
+		<a rel="nofollow" class="comment-reply-link" href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/?replytocom=4289#respond" onclick="return addComment.moveForm(&quot;div-comment-4289&quot;, &quot;4289&quot;, &quot;respond&quot;, &quot;606&quot;)">Reply</a>		</div>
+				</div>
+		</li>
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-4811">
+				<div id="div-comment-4811" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt="" src="./guide_files/53e022ea087deea48485b90abfe5f95f" class="avatar avatar-60 photo" height="60" width="60">		<cite class="fn"><a href="https://mutiarar06.student.ipb.ac.id/" rel="external nofollow" class="url">Mutia</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/comment-page-1/#comment-4811">June 17, 2010 at 10:30 am</a></div>
+
+		<p>hi, its work.. But why i cant do the show_progress? It take very long long time..</p>
+
+		<div class="reply">
+		<a rel="nofollow" class="comment-reply-link" href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/?replytocom=4811#respond" onclick="return addComment.moveForm(&quot;div-comment-4811&quot;, &quot;4811&quot;, &quot;respond&quot;, &quot;606&quot;)">Reply</a>		</div>
+				</div>
+		</li>
+		<li class="pingback even thread-even depth-1" id="comment-4908">
+				<div id="div-comment-4908" class="comment-body">
+				<div class="comment-author vcard">
+				<cite class="fn"><a href="http://www.androidiani.com/forum/htc-magic-modding/9058-sintassi-update-script.html#post137374" rel="external nofollow" class="url">Sintassi update-script - Forum Android Italiano</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/comment-page-1/#comment-4908">June 22, 2010 at 3:47 am</a></div>
+
+		<p>[...]  [...]</p>
+
+		<div class="reply">
+		<a rel="nofollow" class="comment-reply-link" href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/?replytocom=4908#respond" onclick="return addComment.moveForm(&quot;div-comment-4908&quot;, &quot;4908&quot;, &quot;respond&quot;, &quot;606&quot;)">Reply</a>		</div>
+				</div>
+		</li>
+		<li class="pingback odd alt thread-odd thread-alt depth-1" id="comment-5653">
+				<div id="div-comment-5653" class="comment-body">
+				<div class="comment-author vcard">
+				<cite class="fn"><a href="http://androidforums.com/all-things-root-droid/126634-phone-theme.html#post1177297" rel="external nofollow" class="url">From phone to theme? - Android Forums</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/comment-page-1/#comment-5653">July 19, 2010 at 9:24 pm</a></div>
+
+		<p>[...] Originally Posted by OMJ   Based on the state you have things in now I think that it would be easier to make an update.zip than use metamorph.  Basically you need to pull all the files that you changed and package them in a zip. If you dont have any experience with the update.zip format then I would suggest looking at ones done by other themers because files must be nested correctly.   If you get stuck shoot me a pm and I will help you out when I can    Found this tut on making an update.zip. It seems pretty easy and straightforward: How to Create Android Update Zip Package | All About Web &amp; Mobile Application Development [...]</p>
+
+		<div class="reply">
+		<a rel="nofollow" class="comment-reply-link" href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/?replytocom=5653#respond" onclick="return addComment.moveForm(&quot;div-comment-5653&quot;, &quot;5653&quot;, &quot;respond&quot;, &quot;606&quot;)">Reply</a>		</div>
+				</div>
+		</li>
+		<li class="pingback even thread-even depth-1" id="comment-5932">
+				<div id="div-comment-5932" class="comment-body">
+				<div class="comment-author vcard">
+				<cite class="fn"><a href="http://www.android-hilfe.de/root-hacking-modding-fuer-htc-desire/30058-system-schreiben-ohne-root-rechte-mittels-squashfs-unionfs-4.html#post449568" rel="external nofollow" class="url">in /system/ schreiben ohne Root-Rechte mittels squashfs/unionfs - Seite 4 - Android-Hilfe.de</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/comment-page-1/#comment-5932">August 3, 2010 at 1:42 am</a></div>
+
+		<p>[...]  [...]</p>
+
+		<div class="reply">
+		<a rel="nofollow" class="comment-reply-link" href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/?replytocom=5932#respond" onclick="return addComment.moveForm(&quot;div-comment-5932&quot;, &quot;5932&quot;, &quot;respond&quot;, &quot;606&quot;)">Reply</a>		</div>
+				</div>
+		</li>
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-6234">
+				<div id="div-comment-6234" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt="" src="./guide_files/387186618696dc1dfcdb35eb2a4a8e28" class="avatar avatar-60 photo" height="60" width="60">		<cite class="fn">yahso</cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/comment-page-1/#comment-6234">August 19, 2010 at 10:07 pm</a></div>
+
+		<p>not worked<br>
+i have this error</p>
+<p>error in update scripte</p>
+
+		<div class="reply">
+		<a rel="nofollow" class="comment-reply-link" href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/?replytocom=6234#respond" onclick="return addComment.moveForm(&quot;div-comment-6234&quot;, &quot;6234&quot;, &quot;respond&quot;, &quot;606&quot;)">Reply</a>		</div>
+				</div>
+		</li>
+		<li class="pingback even thread-even depth-1" id="comment-6790">
+				<div id="div-comment-6790" class="comment-body">
+				<div class="comment-author vcard">
+				<cite class="fn"><a href="http://www.handy-faq.de/forum/samsung_i9000_galaxy_s_forum/162589-update_zip_selbst_bauen.html#post1120128" rel="external nofollow" class="url">update.zip selbst bauen</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/comment-page-1/#comment-6790">September 22, 2010 at 10:13 pm</a></div>
+
+		<p>[...]  [...]</p>
+
+		<div class="reply">
+		<a rel="nofollow" class="comment-reply-link" href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/?replytocom=6790#respond" onclick="return addComment.moveForm(&quot;div-comment-6790&quot;, &quot;6790&quot;, &quot;respond&quot;, &quot;606&quot;)">Reply</a>		</div>
+				</div>
+		</li>
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-7047">
+				<div id="div-comment-7047" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt="" src="./guide_files/7feff4d90590f89b861db4135bcc36e3" class="avatar avatar-60 photo" height="60" width="60">		<cite class="fn"><a href="http://kenkinder.com/" rel="external nofollow" class="url">Ken Kinder</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/comment-page-1/#comment-7047">October 6, 2010 at 8:52 am</a></div>
+
+		<p>Hey man, thanks for the instructions. For what it’s worth, this worked perfectly for me in modifying an official update from Google; the only catch was, I deleted Google’s certificates in the zip file before trying to sign my own.</p>
+
+		<div class="reply">
+		<a rel="nofollow" class="comment-reply-link" href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/?replytocom=7047#respond" onclick="return addComment.moveForm(&quot;div-comment-7047&quot;, &quot;7047&quot;, &quot;respond&quot;, &quot;606&quot;)">Reply</a>		</div>
+				</div>
+		</li>
+		<li class="trackback even thread-even depth-1" id="comment-7056">
+				<div id="div-comment-7056" class="comment-body">
+				<div class="comment-author vcard">
+				<cite class="fn"><a href="http://beneathgrayski.es/?p=810" rel="external nofollow" class="url">http://www.getsofts.net/ashampoo-home-designer.html</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/comment-page-1/#comment-7056">October 7, 2010 at 4:18 am</a></div>
+
+		<p><strong>Latest HotFile – SharingMatrix Downloads…</strong></p>
+<p>Thanks for taking the time to discuss this, I feel strongly about it and love learning more on this topic. If possible, as you gain expertise, would you mind updating your blog with more information? It is extremely helpful for me….</p>
+
+		<div class="reply">
+		<a rel="nofollow" class="comment-reply-link" href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/?replytocom=7056#respond" onclick="return addComment.moveForm(&quot;div-comment-7056&quot;, &quot;7056&quot;, &quot;respond&quot;, &quot;606&quot;)">Reply</a>		</div>
+				</div>
+		</li>
+		<li class="trackback odd alt thread-odd thread-alt depth-1" id="comment-7137">
+				<div id="div-comment-7137" class="comment-body">
+				<div class="comment-author vcard">
+				<cite class="fn"><a href="http://www.purchasemp3.org/buy-mp3/download-owl-city-fireflies-mp3-free-fireflies-mp3-by-owl-city.html" rel="external nofollow" class="url">owl city - fireflies.mp3</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/comment-page-1/#comment-7137">October 15, 2010 at 3:11 am</a></div>
+
+		<p><strong>Purchase mp3 music online…</strong></p>
+<p>This important is 1 of the finest piece of writing that My spouse and i have read through till date on this specific subject matter. Extremely descriptive nevertheless to the point with out just about any filler….</p>
+
+		<div class="reply">
+		<a rel="nofollow" class="comment-reply-link" href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/?replytocom=7137#respond" onclick="return addComment.moveForm(&quot;div-comment-7137&quot;, &quot;7137&quot;, &quot;respond&quot;, &quot;606&quot;)">Reply</a>		</div>
+				</div>
+		</li>
+		<li class="trackback even thread-even depth-1" id="comment-7140">
+				<div id="div-comment-7140" class="comment-body">
+				<div class="comment-author vcard">
+				<cite class="fn"><a href="http://www.photographytutorials.org/fashion-photography/nokia-n98-dream-big-get-bigger.html" rel="external nofollow" class="url">nokia n98</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/comment-page-1/#comment-7140">October 15, 2010 at 4:43 am</a></div>
+
+		<p><strong>Great Photography Tutorials…</strong></p>
+<p>Appreciation pro the suggestions and references information’s….</p>
+
+		<div class="reply">
+		<a rel="nofollow" class="comment-reply-link" href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/?replytocom=7140#respond" onclick="return addComment.moveForm(&quot;div-comment-7140&quot;, &quot;7140&quot;, &quot;respond&quot;, &quot;606&quot;)">Reply</a>		</div>
+				</div>
+		</li>
+		<li class="trackback odd alt thread-odd thread-alt depth-1" id="comment-7211">
+				<div id="div-comment-7211" class="comment-body">
+				<div class="comment-author vcard">
+				<cite class="fn"><a href="http://www.buysofttoys.com/classic-toys/modern-clean-line-sofas-are-best-for-your-fashionable-home.html" rel="external nofollow" class="url">clean line</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/comment-page-1/#comment-7211">October 18, 2010 at 1:39 pm</a></div>
+
+		<p><strong>Buy Soft Toys &amp; Childrens Toy online now!…</strong></p>
+<p>Hello blogger, good morning. Wonderful post. You have gained a new reader. Pleasee continue this awesome work and I look forward to more of your superb articles….</p>
+
+		<div class="reply">
+		<a rel="nofollow" class="comment-reply-link" href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/?replytocom=7211#respond" onclick="return addComment.moveForm(&quot;div-comment-7211&quot;, &quot;7211&quot;, &quot;respond&quot;, &quot;606&quot;)">Reply</a>		</div>
+				</div>
+		</li>
+		<li class="comment even thread-even depth-1" id="comment-7222">
+				<div id="div-comment-7222" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt="" src="./guide_files/a92b84836117e22daea60686e484aa5f" class="avatar avatar-60 photo" height="60" width="60">		<cite class="fn"><a href="http://www.radiinoble.com/" rel="external nofollow" class="url">Radii Corporate Low</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/comment-page-1/#comment-7222">October 18, 2010 at 2:33 pm</a></div>
+
+		<p>Good check list, I am running through it with my sites now .</p>
+
+		<div class="reply">
+		<a rel="nofollow" class="comment-reply-link" href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/?replytocom=7222#respond" onclick="return addComment.moveForm(&quot;div-comment-7222&quot;, &quot;7222&quot;, &quot;respond&quot;, &quot;606&quot;)">Reply</a>		</div>
+				</div>
+		</li>
+		<li class="trackback odd alt thread-odd thread-alt depth-1" id="comment-7236">
+				<div id="div-comment-7236" class="comment-body">
+				<div class="comment-author vcard">
+				<cite class="fn"><a href="http://www.lifeinsurance-policy.org/" rel="external nofollow" class="url">compare life insurance</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/comment-page-1/#comment-7236">October 18, 2010 at 6:05 pm</a></div>
+
+		<p><strong>Best Life Insurance Quotes, Rates &amp; Policy…</strong></p>
+<p>When I originally commented I clicked the “Notify me when new comments are added” checkbox and now each time a comment is added I get three emails with the same comment. Is there any way you can remove me from that service? Thanks!Thanks…</p>
+
+		<div class="reply">
+		<a rel="nofollow" class="comment-reply-link" href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/?replytocom=7236#respond" onclick="return addComment.moveForm(&quot;div-comment-7236&quot;, &quot;7236&quot;, &quot;respond&quot;, &quot;606&quot;)">Reply</a>		</div>
+				</div>
+		</li>
+		<li class="comment even thread-even depth-1" id="comment-7254">
+				<div id="div-comment-7254" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt="" src="./guide_files/90aee71830b0e5d4480ccac121653f5f" class="avatar avatar-60 photo" height="60" width="60">		<cite class="fn"><a href="http://www.classic-ghd.us/" rel="external nofollow" class="url">ghd website</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/comment-page-1/#comment-7254">October 19, 2010 at 9:00 am</a></div>
+
+		<p>Great article. I have to use more of these ideas. Thanks.</p>
+
+		<div class="reply">
+		<a rel="nofollow" class="comment-reply-link" href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/?replytocom=7254#respond" onclick="return addComment.moveForm(&quot;div-comment-7254&quot;, &quot;7254&quot;, &quot;respond&quot;, &quot;606&quot;)">Reply</a>		</div>
+				</div>
+		</li>
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-7342">
+				<div id="div-comment-7342" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt="" src="./guide_files/52b9d5d34eecc96e021303e32ff083cb" class="avatar avatar-60 photo" height="60" width="60">		<cite class="fn"><a href="http://www.classic-ghd.us/" rel="external nofollow" class="url">ghd straightener</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/comment-page-1/#comment-7342">October 22, 2010 at 4:42 pm</a></div>
+
+		<p>Thank for your post, i really love it. I will come again.</p>
+
+		<div class="reply">
+		<a rel="nofollow" class="comment-reply-link" href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/?replytocom=7342#respond" onclick="return addComment.moveForm(&quot;div-comment-7342&quot;, &quot;7342&quot;, &quot;respond&quot;, &quot;606&quot;)">Reply</a>		</div>
+				</div>
+		</li>
+		<li class="pingback even thread-even depth-1" id="comment-7504">
+				<div id="div-comment-7504" class="comment-body">
+				<div class="comment-author vcard">
+				<cite class="fn"><a href="http://www.androidiani.com/forum/samsung-galaxy-s-modding/25388-creare-autoinstallante-per-data-app-2.html#post220568" rel="external nofollow" class="url">Creare autoinstallante per data/app - Pagina 2 - Forum Android Italiano</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/comment-page-1/#comment-7504">November 6, 2010 at 8:55 pm</a></div>
+
+		<p>[...]  [...]</p>
+
+		<div class="reply">
+		<a rel="nofollow" class="comment-reply-link" href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/?replytocom=7504#respond" onclick="return addComment.moveForm(&quot;div-comment-7504&quot;, &quot;7504&quot;, &quot;respond&quot;, &quot;606&quot;)">Reply</a>		</div>
+				</div>
+		</li>
+		<li class="pingback odd alt thread-odd thread-alt depth-1" id="comment-7683">
+				<div id="div-comment-7683" class="comment-body">
+				<div class="comment-author vcard">
+				<cite class="fn"><a href="http://globalspacewalker.wordpress.com/2010/12/08/abd-tool/" rel="external nofollow" class="url">ABD Android Command Tool « Global Space Walker</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/comment-page-1/#comment-7683">December 8, 2010 at 11:08 pm</a></div>
+
+		<p>[...] How to Create Android Update Zip Package (17) [...]</p>
+
+		<div class="reply">
+		<a rel="nofollow" class="comment-reply-link" href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/?replytocom=7683#respond" onclick="return addComment.moveForm(&quot;div-comment-7683&quot;, &quot;7683&quot;, &quot;respond&quot;, &quot;606&quot;)">Reply</a>		</div>
+				</div>
+		</li>
+		<li class="pingback even thread-even depth-1" id="comment-7851">
+				<div id="div-comment-7851" class="comment-body">
+				<div class="comment-author vcard">
+				<cite class="fn"><a href="http://www.android-guru.de/allgemein/1019-update-zip-installieren.html#post2867" rel="external nofollow" class="url">update.zip installieren</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/comment-page-1/#comment-7851">January 30, 2011 at 8:06 pm</a></div>
+
+		<p>[...]          schau mal hier: How to Create Android Update Zip Package | All About Web &amp; Mobile Application Development  How to Sign Android APK or Zip Files | All About Web &amp; Mobile Application Development          [...]</p>
+
+		<div class="reply">
+		<a rel="nofollow" class="comment-reply-link" href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/?replytocom=7851#respond" onclick="return addComment.moveForm(&quot;div-comment-7851&quot;, &quot;7851&quot;, &quot;respond&quot;, &quot;606&quot;)">Reply</a>		</div>
+				</div>
+		</li>
+		<li class="pingback odd alt thread-odd thread-alt depth-1" id="comment-8016">
+				<div id="div-comment-8016" class="comment-body">
+				<div class="comment-author vcard">
+				<cite class="fn"><a href="http://www.handy-faq.de/forum/htc_hd2_android_forum/195139-eigene_datei_fuer_cwr_erstellen_u_installieren.html#post1427701" rel="external nofollow" class="url">Eigene Datei f</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/comment-page-1/#comment-8016">March 19, 2011 at 5:21 am</a></div>
+
+		<p>[...]  [...]</p>
+
+		<div class="reply">
+		<a rel="nofollow" class="comment-reply-link" href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/?replytocom=8016#respond" onclick="return addComment.moveForm(&quot;div-comment-8016&quot;, &quot;8016&quot;, &quot;respond&quot;, &quot;606&quot;)">Reply</a>		</div>
+				</div>
+		</li>
+		<li class="comment even thread-even depth-1" id="comment-8236">
+				<div id="div-comment-8236" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt="" src="./guide_files/4f667c16f68fa39454d93a8f7812ebcd" class="avatar avatar-60 photo" height="60" width="60">		<cite class="fn"><a href="http://www.laptopakkuneu.de/" rel="external nofollow" class="url">de laptop akkuneu</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/comment-page-1/#comment-8236">April 28, 2011 at 1:35 pm</a></div>
+
+		<p>n Development How to Sign Android APK or Zip Files | All About Web &amp; Mobile Application Development [...]</p>
+
+		<div class="reply">
+		<a rel="nofollow" class="comment-reply-link" href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/?replytocom=8236#respond" onclick="return addComment.moveForm(&quot;div-comment-8236&quot;, &quot;8236&quot;, &quot;respond&quot;, &quot;606&quot;)">Reply</a>		</div>
+				</div>
+		</li>
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-8322">
+				<div id="div-comment-8322" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt="" src="./guide_files/4b4a5e50bad8e4245751729518296fed" class="avatar avatar-60 photo" height="60" width="60">		<cite class="fn">pedrinho</cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/comment-page-1/#comment-8322">May 12, 2011 at 8:10 pm</a></div>
+
+		<p>first of all – thanks for the post – is great</p>
+<p>my problem, with recovery 3e it does not accept these signed update.zip the only message is “installation aborted”.<br>
+seems to open and read the update.zip if i enter “show_progress 0.1 50000″ it tooks more time to display the message.</p>
+<p>any hints ? thankyou, greez from BR</p>
+<p>hw: hero h6 china phone</p>
+
+		<div class="reply">
+		<a rel="nofollow" class="comment-reply-link" href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/?replytocom=8322#respond" onclick="return addComment.moveForm(&quot;div-comment-8322&quot;, &quot;8322&quot;, &quot;respond&quot;, &quot;606&quot;)">Reply</a>		</div>
+				</div>
+		</li>
+		<li class="comment even thread-even depth-1" id="comment-8943">
+				<div id="div-comment-8943" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt="" src="./guide_files/74f6170f16c4b6ed985cfcae494160b5" class="avatar avatar-60 photo" height="60" width="60">		<cite class="fn">Adi Martha</cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/comment-page-1/#comment-8943">August 7, 2011 at 3:18 am</a></div>
+
+		<p>sama…disini juga kena Instalation Aborted setelah nambah key. kenapa ya?<br>
+apa karena ga cocok sama versi ClockWorkMod nya? <img src="./guide_files/icon_smile.gif" alt=":)" class="wp-smiley"> </p>
+
+		<div class="reply">
+		<a rel="nofollow" class="comment-reply-link" href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/?replytocom=8943#respond" onclick="return addComment.moveForm(&quot;div-comment-8943&quot;, &quot;8943&quot;, &quot;respond&quot;, &quot;606&quot;)">Reply</a>		</div>
+				</div>
+		</li>
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-9219">
+				<div id="div-comment-9219" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt="" src="./guide_files/30f191af8c326ef941fd43d3743b7ec3" class="avatar avatar-60 photo" height="60" width="60">		<cite class="fn">leon</cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/comment-page-1/#comment-9219">August 31, 2011 at 7:51 pm</a></div>
+
+		<p>不全啊 大哥</p>
+
+		<div class="reply">
+		<a rel="nofollow" class="comment-reply-link" href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/?replytocom=9219#respond" onclick="return addComment.moveForm(&quot;div-comment-9219&quot;, &quot;9219&quot;, &quot;respond&quot;, &quot;606&quot;)">Reply</a>		</div>
+				</div>
+		</li>
+		<li class="pingback even thread-even depth-1" id="comment-9261">
+				<div id="div-comment-9261" class="comment-body">
+				<div class="comment-author vcard">
+				<cite class="fn"><a href="http://androidforums.com/m835-all-things-root/407478-how-theme-your-m835-black-status-bar.html#post3156681" rel="external nofollow" class="url">How to theme your m835 (Black Status bar) - Android Forums</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/comment-page-1/#comment-9261">September 3, 2011 at 8:20 am</a></div>
+
+		<p>[...] the system/framework folder from the uot theme download and make it in to your update.zip format following this guide. Using ultrajack to apply these updates means you can skip the signing part of the guide.  Fourth: [...]</p>
+
+		<div class="reply">
+		<a rel="nofollow" class="comment-reply-link" href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/?replytocom=9261#respond" onclick="return addComment.moveForm(&quot;div-comment-9261&quot;, &quot;9261&quot;, &quot;respond&quot;, &quot;606&quot;)">Reply</a>		</div>
+				</div>
+		</li>
+		<li class="pingback odd alt thread-odd thread-alt depth-1" id="comment-10172">
+				<div id="div-comment-10172" class="comment-body">
+				<div class="comment-author vcard">
+				<cite class="fn"><a href="http://www.handy-faq.de/forum/samsung_i9000_galaxy_s_forum/225259-framework_res_apk_update_zip_funzt.html#post1743792" rel="external nofollow" class="url">Framework-res.apk - Update.zip funzt nicht</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/comment-page-1/#comment-10172">October 27, 2011 at 6:06 pm</a></div>
+
+		<p>[...]  [...]</p>
+
+		<div class="reply">
+		<a rel="nofollow" class="comment-reply-link" href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/?replytocom=10172#respond" onclick="return addComment.moveForm(&quot;div-comment-10172&quot;, &quot;10172&quot;, &quot;respond&quot;, &quot;606&quot;)">Reply</a>		</div>
+				</div>
+		</li>
+		<li class="pingback even thread-even depth-1" id="comment-10517">
+				<div id="div-comment-10517" class="comment-body">
+				<div class="comment-author vcard">
+				<cite class="fn"><a href="http://and-roid.ir/Forum/thread18303.html#post263940" rel="external nofollow" class="url">کار با D4 Update Zip Maker و ساختن update.zip در آندروید</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/comment-page-1/#comment-10517">November 14, 2011 at 12:35 pm</a></div>
+
+		<p>[...] [/TR]   اینجا هم یه چیزایی نوشته کسی میتونه کمکم بکنه؟ <a href="http://www.londatiga.net/it/how-to-c...e-zip-package/" rel="nofollow">http://www.londatiga.net/it/how-to-c…e-zip-package/</a>                پاسخ با نقل [...]</p>
+
+		<div class="reply">
+		<a rel="nofollow" class="comment-reply-link" href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/?replytocom=10517#respond" onclick="return addComment.moveForm(&quot;div-comment-10517&quot;, &quot;10517&quot;, &quot;respond&quot;, &quot;606&quot;)">Reply</a>		</div>
+				</div>
+		</li>
+</ol>
+<div class="navigation">
+    <div class="alignleft">
+            </div>
+    <div class="alignright">
+            </div>
+</div>
+<div id="respond">
+    <h3>
+        Leave a Reply    </h3>
+    <div class="cancel-comment-reply"> <small>
+        <a rel="nofollow" id="cancel-comment-reply-link" href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/#respond" style="display:none;">Click here to cancel reply.</a>        </small> </div>
+        <form action="http://www.londatiga.net/wp-comments-post.php" method="post" id="commentform">
+                <p>
+            <input type="text" name="author" id="author" value="" size="22" tabindex="1" aria-required="true">
+            <label for="author"><small>Name
+                (required)                </small></label>
+        </p>
+        <p>
+            <input type="text" name="email" id="email" value="" size="22" tabindex="2" aria-required="true">
+            <label for="email"><small>Mail (will not be published)
+                (required)                </small></label>
+        </p>
+        <p>
+            <input type="text" name="url" id="url" value="" size="22" tabindex="3">
+            <label for="url"><small>Website</small></label>
+        </p>
+                <!--<p><small><strong>XHTML:</strong> You can use these tags: <code>&lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=&quot;&quot;&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=&quot;&quot;&gt; &lt;strike&gt; &lt;strong&gt; </code></small></p>-->
+        <p>
+            <textarea name="comment" id="comment" cols="100%" rows="10" tabindex="4"></textarea>
+        </p>
+        <p>
+            
+            <input type="hidden" name="comment_post_ID" value="606" id="comment_post_ID">
+<input type="hidden" name="comment_parent" id="comment_parent" value="0">
+        </p>
+                        <script type="text/javascript">
+                    var RecaptchaOptions = { theme : 'white', lang : 'en' , tabindex : 5 };
+                </script><script type="text/javascript" src="./guide_files/challenge"></script><script type="text/javascript" src="./guide_files/recaptcha.js"></script><div id="recaptcha_widget_div" style="" class=" recaptcha_nothad_incorrect_sol recaptcha_isnot_showing_audio"><div id="recaptcha_area"><table id="recaptcha_table" class="recaptchatable recaptcha_theme_white" style="direction: ltr; "> <tbody><tr> <td colspan="6" class="recaptcha_r1_c1"></td> </tr> <tr> <td class="recaptcha_r2_c1"></td> <td colspan="4" class="recaptcha_image_cell"><div id="recaptcha_image" style="width: 300px; height: 57px; "><img style="display:block;" height="57" width="300" src="./guide_files/image"></div></td> <td class="recaptcha_r2_c2"></td> </tr> <tr> <td rowspan="6" class="recaptcha_r3_c1"></td> <td colspan="4" class="recaptcha_r3_c2"></td> <td rowspan="6" class="recaptcha_r3_c3"></td> </tr> <tr> <td rowspan="3" class="recaptcha_r4_c1" height="49"> <div class="recaptcha_input_area"> <label for="recaptcha_response_field" class="recaptcha_input_area_text"><span id="recaptcha_instructions_image" class="recaptcha_only_if_image recaptcha_only_if_no_incorrect_sol">Type the two words:</span><span id="recaptcha_instructions_audio" class="recaptcha_only_if_no_incorrect_sol recaptcha_only_if_audio">Type what you hear:</span><span id="recaptcha_instructions_error" class="recaptcha_only_if_incorrect_sol">Incorrect. Try again.</span></label><br> <span id="recaptcha_challenge_field_holder" style="display: none; "><input type="hidden" name="recaptcha_challenge_field" id="recaptcha_challenge_field" value="03AHJ_VuuoH9U8ekV3zs8ixTOzNQSpvy9xK6pB8VmHI36UW4KCjD5OaPVBigcSRl3DRCWNOkJ-iD2lEuJbl0D-vjfqIU9ZFZsffcQbz7iO7ACzDCllLqoP45LLtfIjsVMAFBiJYTFz8PhRSjUqpFbYSy7zA4L8RpPpow"></span><input name="recaptcha_response_field" id="recaptcha_response_field" type="text" autocorrect="off" autocapitalize="off" autocomplete="off" tabindex="5"> </div> </td> <td rowspan="4" class="recaptcha_r4_c2"></td> <td><a id="recaptcha_reload_btn" href="javascript:Recaptcha.reload ();" title="Get a new challenge" tabindex="5"><img id="recaptcha_reload" width="25" height="17" src="./guide_files/refresh.gif" alt="Get a new challenge"></a></td> <td rowspan="4" class="recaptcha_r4_c4"></td> </tr> <tr> <td><a id="recaptcha_switch_audio_btn" class="recaptcha_only_if_image" href="javascript:Recaptcha.switch_type('audio');" title="Get an audio challenge" tabindex="5"><img id="recaptcha_switch_audio" width="25" height="16" alt="Get an audio challenge" src="./guide_files/audio.gif"></a><a id="recaptcha_switch_img_btn" class="recaptcha_only_if_audio" href="javascript:Recaptcha.switch_type('image');" title="Get a visual challenge" tabindex="5"><img id="recaptcha_switch_img" width="25" height="16" alt="Get a visual challenge" src="./guide_files/text.gif"></a></td> </tr> <tr> <td><a id="recaptcha_whatsthis_btn" href="http://www.google.com/recaptcha/help?c=03AHJ_VuuoH9U8ekV3zs8ixTOzNQSpvy9xK6pB8VmHI36UW4KCjD5OaPVBigcSRl3DRCWNOkJ-iD2lEuJbl0D-vjfqIU9ZFZsffcQbz7iO7ACzDCllLqoP45LLtfIjsVMAFBiJYTFz8PhRSjUqpFbYSy7zA4L8RpPpow&lang=en" target="_blank" title="Help" tabindex="5"><img id="recaptcha_whatsthis" width="25" height="16" src="./guide_files/help.gif" alt="Help"></a></td> </tr> <tr> <td class="recaptcha_r7_c1"></td> <td class="recaptcha_r8_c1"></td> </tr> </tbody></table> </div></div><script>Recaptcha.widget = Recaptcha.$("recaptcha_widget_div"); Recaptcha.challenge_callback();</script>
+
+	<noscript>
+  		&lt;iframe src="http://www.google.com/recaptcha/api/noscript?k=6LcSrwkAAAAAAK74VAhXSpRdqekRJTrJqGw3nVY4" height="300" width="500" frameborder="0"&gt;&lt;/iframe&gt;&lt;br/&gt;
+  		&lt;textarea name="recaptcha_challenge_field" rows="3" cols="40"&gt;&lt;/textarea&gt;
+  		&lt;input type="hidden" name="recaptcha_response_field" value="manual_challenge"/&gt;
+	</noscript>                        <div id="recaptcha-submit-btn-area">&nbsp;<input name="submit" type="submit" id="submit" tabindex="6" value="Submit Comment"></div>
+                        <noscript>
+                         &lt;style type='text/css'&gt;#submit {display:none;}&lt;/style&gt;
+                         &lt;input name="submit" type="submit" id="submit-alt" tabindex="6" value="Submit Comment"/&gt; 
+                        </noscript>    </form>
+    </div>
+<div style="clear: both;"></div>
+        </div>
+        <!--End Comments Template-->
+        <img src="./guide_files/content-blue-bottom.gif" alt="bottom" style="float: left;">
+                    </div>
+</div>
+<!--Begin Sidebar-->
+
+<div id="sidebar-wrapper">    
+    <div id="sidebardark">
+        <!--Begin Search Slider-->
+        <p class="slide2"><a href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/#" class="btn-slide2">search my blog</a></p>
+        <div id="panel2">
+            <div class="search_bg">
+                <div id="search">
+                    <form method="get" action="http://www.londatiga.net/" style="padding:0px 0px 0px 0px; margin:0px 0px 0px 0px">
+                        <input type="text" name="s" value="">
+                        <input type="image" class="input" src="./guide_files/search.gif" value="submit">
+                    </form>
+                </div>
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+        <!--End Search Slider-->
+     <!--Begin Subscribe Slider-->
+        <p class="slide3"><a href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/#" class="btn-slide3">subscribe to rss</a></p>
+        <div id="panel3">
+           <form action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open(&#39;http://feedburner.google.com/fb/a/mailverify?uri=LorenzsBlog&#39;, &#39;popupwindow&#39;, &#39;scrollbars=yes,width=550,height=520&#39;);return true">
+                <input value="Your email address" onfocus="clearDefault(this)" name="email" id="emailer" type="text">
+                <input value="LorenzsBlog" name="uri" type="hidden"><br>
+                <input value="Email Subscribe" name="title" type="hidden">
+                <input value="submit" class="feedsubmit" type="submit">
+            </form>
+            <div style="clear: both;"></div>
+        </div>
+        <!--End Subscribe Slider-->
+        <!--Begin Tags Slider-->
+        <p class="slide4"><a href="http://www.londatiga.net/it/how-to-create-android-update-zip-package/#" class="btn-slide4">popular tags</a></p>
+        <div id="panel4">
+            <p class="panel-inside">
+                <a href="http://www.londatiga.net/tag/adb/" class="tag-link-325" title="2 topics" rel="tag" style="font-size: 8.63636363636pt;">adb</a>
+<a href="http://www.londatiga.net/tag/adobe-air/" class="tag-link-138" title="2 topics" rel="tag" style="font-size: 8.63636363636pt;">Adobe Air</a>
+<a href="http://www.londatiga.net/tag/adobe-flex-builder/" class="tag-link-137" title="2 topics" rel="tag" style="font-size: 8.63636363636pt;">Adobe Flex Builder</a>
+<a href="http://www.londatiga.net/tag/android/" class="tag-link-275" title="23 topics" rel="tag" style="font-size: 22pt;">Android</a>
+<a href="http://www.londatiga.net/tag/android-phone/" class="tag-link-285" title="2 topics" rel="tag" style="font-size: 8.63636363636pt;">android phone</a>
+<a href="http://www.londatiga.net/tag/android-programming/" class="tag-link-281" title="2 topics" rel="tag" style="font-size: 8.63636363636pt;">android programming</a>
+<a href="http://www.londatiga.net/tag/api/" class="tag-link-359" title="4 topics" rel="tag" style="font-size: 9.90909090909pt;">api</a>
+<a href="http://www.londatiga.net/tag/chrome-extension/" class="tag-link-249" title="2 topics" rel="tag" style="font-size: 8.63636363636pt;">chrome extension</a>
+<a href="http://www.londatiga.net/tag/fedora/" class="tag-link-129" title="2 topics" rel="tag" style="font-size: 8.63636363636pt;">fedora</a>
+<a href="http://www.londatiga.net/tag/flash-video-player/" class="tag-link-195" title="2 topics" rel="tag" style="font-size: 8.63636363636pt;">flash video player</a>
+<a href="http://www.londatiga.net/tag/flex/" class="tag-link-136" title="2 topics" rel="tag" style="font-size: 8.63636363636pt;">Flex</a>
+<a href="http://www.londatiga.net/tag/fokker-28/" class="tag-link-21" title="1 topic" rel="tag" style="font-size: 8pt;">Fokker 28</a>
+<a href="http://www.londatiga.net/tag/gallery/" class="tag-link-373" title="2 topics" rel="tag" style="font-size: 8.63636363636pt;">gallery</a>
+<a href="http://www.londatiga.net/tag/gis/" class="tag-link-14" title="1 topic" rel="tag" style="font-size: 8pt;">GIS</a>
+<a href="http://www.londatiga.net/tag/gmail/" class="tag-link-77" title="5 topics" rel="tag" style="font-size: 10.5454545455pt;">gmail</a>
+<a href="http://www.londatiga.net/tag/google/" class="tag-link-78" title="2 topics" rel="tag" style="font-size: 8.63636363636pt;">google</a>
+<a href="http://www.londatiga.net/tag/google-apps/" class="tag-link-79" title="3 topics" rel="tag" style="font-size: 9.27272727273pt;">google apps</a>
+<a href="http://www.londatiga.net/tag/google-chrome-extension/" class="tag-link-189" title="2 topics" rel="tag" style="font-size: 8.63636363636pt;">google chrome extension</a>
+<a href="http://www.londatiga.net/tag/image/" class="tag-link-131" title="2 topics" rel="tag" style="font-size: 8.63636363636pt;">image</a>
+<a href="http://www.londatiga.net/tag/innodb/" class="tag-link-13" title="1 topic" rel="tag" style="font-size: 8pt;">InnoDB</a>
+<a href="http://www.londatiga.net/tag/javascript/" class="tag-link-117" title="8 topics" rel="tag" style="font-size: 12.4545454545pt;">javascript</a>
+<a href="http://www.londatiga.net/tag/jquery/" class="tag-link-71" title="3 topics" rel="tag" style="font-size: 9.27272727273pt;">jquery</a>
+<a href="http://www.londatiga.net/tag/linux/" class="tag-link-87" title="3 topics" rel="tag" style="font-size: 9.27272727273pt;">linux</a>
+<a href="http://www.londatiga.net/tag/mapserver/" class="tag-link-15" title="1 topic" rel="tag" style="font-size: 8pt;">MapServer</a>
+<a href="http://www.londatiga.net/tag/merpati-nusantara/" class="tag-link-23" title="1 topic" rel="tag" style="font-size: 8pt;">Merpati Nusantara</a>
+<a href="http://www.londatiga.net/tag/microsft-flight-simulator-2004/" class="tag-link-25" title="1 topic" rel="tag" style="font-size: 8pt;">Microsft Flight Simulator 2004</a>
+<a href="http://www.londatiga.net/tag/mysql/" class="tag-link-12" title="3 topics" rel="tag" style="font-size: 9.27272727273pt;">Mysql</a>
+<a href="http://www.londatiga.net/tag/nlite/" class="tag-link-52" title="1 topic" rel="tag" style="font-size: 8pt;">nlite</a>
+<a href="http://www.londatiga.net/tag/pelita-air/" class="tag-link-24" title="1 topic" rel="tag" style="font-size: 8pt;">Pelita Air</a>
+<a href="http://www.londatiga.net/tag/php/" class="tag-link-65" title="8 topics" rel="tag" style="font-size: 12.4545454545pt;">PHP</a>
+<a href="http://www.londatiga.net/tag/php-mapscript/" class="tag-link-16" title="1 topic" rel="tag" style="font-size: 8pt;">PHP MapScript</a>
+<a href="http://www.londatiga.net/tag/postgis/" class="tag-link-17" title="1 topic" rel="tag" style="font-size: 8pt;">PostGIS</a>
+<a href="http://www.londatiga.net/tag/project-fokker/" class="tag-link-22" title="1 topic" rel="tag" style="font-size: 8pt;">Project Fokker</a>
+<a href="http://www.londatiga.net/tag/prototype/" class="tag-link-69" title="2 topics" rel="tag" style="font-size: 8.63636363636pt;">prototype</a>
+<a href="http://www.londatiga.net/tag/ria/" class="tag-link-139" title="2 topics" rel="tag" style="font-size: 8.63636363636pt;">RIA</a>
+<a href="http://www.londatiga.net/tag/samsung-spica/" class="tag-link-292" title="4 topics" rel="tag" style="font-size: 9.90909090909pt;">Samsung Spica</a>
+<a href="http://www.londatiga.net/tag/sata/" class="tag-link-50" title="1 topic" rel="tag" style="font-size: 8pt;">SATA</a>
+<a href="http://www.londatiga.net/tag/sata-driver/" class="tag-link-51" title="1 topic" rel="tag" style="font-size: 8pt;">SATA driver</a>
+<a href="http://www.londatiga.net/tag/spica/" class="tag-link-309" title="3 topics" rel="tag" style="font-size: 9.27272727273pt;">spica</a>
+<a href="http://www.londatiga.net/tag/theme/" class="tag-link-81" title="2 topics" rel="tag" style="font-size: 8.63636363636pt;">theme</a>
+<a href="http://www.londatiga.net/tag/twitter/" class="tag-link-192" title="4 topics" rel="tag" style="font-size: 9.90909090909pt;">twitter</a>
+<a href="http://www.londatiga.net/tag/web-video-player/" class="tag-link-194" title="2 topics" rel="tag" style="font-size: 8.63636363636pt;">web video player</a>
+<a href="http://www.londatiga.net/tag/xampp/" class="tag-link-7" title="1 topic" rel="tag" style="font-size: 8pt;">XAMPP</a>
+<a href="http://www.londatiga.net/tag/xp/" class="tag-link-49" title="1 topic" rel="tag" style="font-size: 8pt;">XP</a>
+<a href="http://www.londatiga.net/tag/zip/" class="tag-link-125" title="2 topics" rel="tag" style="font-size: 8.63636363636pt;">zip</a>            </p>
+        </div>
+        <!--End Tags Slider-->
+    </div>
+    <img src="./guide_files/sidebar-dark-bottom.gif" alt="bottom" style="float: left;">
+       
+        
+        <img src="./guide_files/sidebar-dark-bottom.gif" alt="bottom" style="float: left;">
+        <!--
+                <div id="sidebardark" style="margin-top:10px;">
+<a href="http://www.elegantthemes.com/affiliates/idevaffiliate.php?id=3055_0_1_3" target="_blank"><img border="0" src="http://www.elegantthemes.com/affiliates/banners/125x125-2.gif" width="125" height="125"></a>
+
+<a href="http://wpwebhost.com/affiliate/idevaffiliate.php?id=913_0_1_30" target="_blank"><img border="0" src="http://wpwebhost.com/affiliate/banners/wp125x125.gif" width="125" height="125"></a>
+
+    </div>
+        <img src="http://www.londatiga.net/wp-content/themes/TidalForce/images/sidebar-dark-bottom.gif" alt="bottom" style="float: left;" />
+        
+  //-->
+     <div id="sidebardark" style="margin-top:10px;color:#fff;">
+        <div class="sidebardark-box">
+    <b>Featured Posts</b>
+        <ul>
+                        <li><a href="http://www.londatiga.net/it/how-to-send-image-to-twitpic-from-android/" rel="bookmark" title="Permanent Link to How to Send Image to Twitpic from Android">
+                How to Send Image to Twitpic from Android                </a></li>
+                        <li><a href="http://www.londatiga.net/featured-articles/how-to-select-and-crop-image-on-android/" rel="bookmark" title="Permanent Link to How to Select and Crop Image on Android">
+                How to Select and Crop Image on Android                </a></li>
+                        <li><a href="http://www.londatiga.net/featured-articles/how-to-use-foursquare-api-on-android-application/" rel="bookmark" title="Permanent Link to How to Use Foursquare API on Android Application">
+                How to Use Foursquare API on Android Application                </a></li>
+                        <li><a href="http://www.londatiga.net/it/how-to-post-twitter-status-from-android/" rel="bookmark" title="Permanent Link to How to Post Twitter Status from Android">
+                How to Post Twitter Status from Android                </a></li>
+                        <li><a href="http://www.londatiga.net/it/how-to-create-quickaction-dialog-in-android/" rel="bookmark" title="Permanent Link to How to Create QuickAction Dialog in Android">
+                How to Create QuickAction Dialog in Android                </a></li>
+                    </ul>
+        </div>
+    </div>
+    <img src="./guide_files/sidebar-dark-bottom.gif" alt="bottom" style="float: left;">
+   
+	<div id="sidebardark" style="margin-top:10px;color:#fff;">
+	<script type="text/javascript"><!--
+google_ad_client = "pub-7633089011736709";
+/* 160x600, created 2/1/10 */
+google_ad_slot = "5803731022";
+google_ad_width = 160;
+google_ad_height = 600;
+//-->
+</script>
+<script type="text/javascript" src="./guide_files/show_ads.js">
+</script>
+	</div>
+	 <img src="./guide_files/sidebar-dark-bottom.gif" alt="bottom" style="float: left;">
+	-   
+  
+	
+</div>
+</div><!--End Sidebar-->
+<!--Begin Footer-->
+<div id="footer-top">
+    <!--Begin Footer Archives-->
+    <div class="footerboxes">
+        <h3>Links</h3>
+        <ul>
+            <li><a href="http://www.javelt.com/" target="_blank">Javelt</a></li>
+<li><a href="http://blog.javelt.com/">Javelt Blog</a></li>
+<li><a href="http://www.mvi-va.com/" target="_blank">Maskapai Virtual Indonesia</a></li>
+<li><a href="http://newbietalks.com/" target="_blank">Newbietalks</a></li>
+<li><a href="http://www.todaygadgets.com/" target="_blank">Today Gadgets</a></li>
+<li><a href="http://allwindowsphone7.com/" target="_blank">Windows Phone 7 News</a></li>
+        </ul>
+    </div>
+    <!--End Footer Archives-->
+    <!--Begin Footer Featured Posts-->
+    <div class="footerboxes">
+        <h3>Featured Posts</h3>
+        <ul>
+                        <li><a href="http://www.londatiga.net/it/how-to-send-image-to-twitpic-from-android/" rel="bookmark" title="Permanent Link to How to Send Image to Twitpic from Android">
+                How to Send Image to Twitpic from Android                </a></li>
+                        <li><a href="http://www.londatiga.net/featured-articles/how-to-select-and-crop-image-on-android/" rel="bookmark" title="Permanent Link to How to Select and Crop Image on Android">
+                How to Select and Crop Image on Android                </a></li>
+                        <li><a href="http://www.londatiga.net/featured-articles/how-to-use-foursquare-api-on-android-application/" rel="bookmark" title="Permanent Link to How to Use Foursquare API on Android Application">
+                How to Use Foursquare API on Android Application                </a></li>
+                        <li><a href="http://www.londatiga.net/it/how-to-post-twitter-status-from-android/" rel="bookmark" title="Permanent Link to How to Post Twitter Status from Android">
+                How to Post Twitter Status from Android                </a></li>
+                    </ul>
+    </div>
+    <!--End Footer Featured Posts-->
+    <!--Begin Footer RSS Links-->
+    <div class="footerboxes">
+        <h3 style="margin-left: 30px;">RSS Feeds</h3>
+        
+        <ul id="rssbox">
+            <li><a href="http://feeds.feedburner.com/LorenzsBlog" rel="alternate" type="application/rss+xml"><img src="./guide_files/feed-icon16x16.png" alt="" style="border: none; margin-right: 8px; margin-bottom: -4px;">Subscribe in a reader</a></li>
+<!--            <li><a href="http://www.londatiga.net/feed/" rel="bookmark" title="RSS"><img src="http://www.londatiga.net/wp-content/themes/TidalForce/images/icon-rss.gif" alt="logo" style="border: none; margin-right: 8px; margin-bottom: -4px;" />RSS 2.0 Feed URL</a></li> //-->
+            <li><a href="http://www.londatiga.net/feed/atom/" rel="bookmark" title="RSS"><img src="./guide_files/icon-rss.gif" alt="logo" style="border: none; margin-right: 8px; margin-bottom: -4px;">Atom Feed URL</a></li>
+            <li><a href="http://www.londatiga.net/comments/feed/" rel="bookmark" title="RSS"><img src="./guide_files/icon-rss.gif" alt="logo" style="border: none; margin-right: 8px; margin-bottom: -4px;">Comments RSS 2.0 Feed</a></li>
+            <li><a href="http://www.londatiga.net/feed/rdf/" rel="bookmark" title="RSS"> <img src="./guide_files/icon-rss.gif" alt="logo" style="border: none; margin-right: 8px; margin-bottom: -4px;"> RSS/RDF 1.0 Feed URL</a></li>
+        </ul>
+    </div>
+    <!--End Footer RSS Links-->
+    <div style="clear: both;"></div>
+</div>
+<!--Begin Footer-->
+<div id="footer"> <img src="./guide_files/footer-left.gif" alt="logo" style="float:left;">
+    <div id="footer-inside"> 
+<div style="float:left">
+© Copyright
+        Lorensius W. L. T
+        2009. All rights reserved. | Powered by <a href="http://www.wordpress.org/">Wordpress</a> | Designed by <a href="http://www.elegantthemes.com/affiliates/idevaffiliate.php?id=3055&keyword=elegantthemes&url=3">Elegant Themes</a> 
+		</div></div>
+		
+    <img src="./guide_files/footer-right.gif" alt="logo" style="float:left;"> </div>
+<div style="clear: both;"></div>
+</div><iframe src="about:blank" style="height: 0px; width: 0px; visibility: hidden; border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; border-width: initial; border-color: initial; border-image: initial; ">This frame prevents back/forward cache problems in Safari.</iframe>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script src="./guide_files/ga.js" type="text/javascript"></script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-11187723-1");
+pageTracker._trackPageview();
+</script>
+
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=5456459;
+var sc_invisible=1;
+var sc_partition=60;
+var sc_click_stat=1;
+var sc_security="868985ab";
+</script>
+
+<script type="text/javascript" src="./guide_files/counter.js"></script><noscript>&lt;div
+class="statcounter"&gt;&lt;a title="wordpress visitor"
+href="http://www.statcounter.com/wordpress.com/" target="_blank"&gt;&lt;img
+class="statcounter" src="http://c.statcounter.com/5456459/0/868985ab/1/"
+alt="wordpress visitor" &gt;&lt;/a&gt;&lt;/div&gt;</noscript>
+<!-- End of StatCounter Code -->
+
+<script type="text/javascript" src="./guide_files/addthis_widget.js"></script>
+
+<!--End Footer-->
+<script type="text/javascript" src="./guide_files/jquery.form.js"></script>
+<script type="text/javascript" src="./guide_files/scripts.js"></script>
+                <script type="text/javascript">
+                var sub = document.getElementById('submit');
+                document.getElementById('recaptcha-submit-btn-area').appendChild (sub);
+                document.getElementById('submit').tabIndex = 6;
+                if ( typeof _recaptcha_wordpress_savedcomment != 'undefined') {
+                        document.getElementById('comment').value = _recaptcha_wordpress_savedcomment;
+                }
+                document.getElementById('recaptcha_table').style.direction = 'ltr';
+                </script><!-- AdSense Manager v3.3.3 (0.331 seconds.) --><script type="text/javascript" src="./guide_files/shCore.js"></script>
+<script type="text/javascript" src="./guide_files/shBrushPlain.js"></script>
+<script type="text/javascript">
+	(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "http://www.londatiga.net/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shCore.css?ver=3.0.83b";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "http://www.londatiga.net/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shThemeMidnight.css?ver=3.0.83b";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.all();
+</script>
+<!--End Footer-->
+
+
+
+<!-- Dynamic page generated in 0.328 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2011-11-29 21:08:30 -->
+<!-- Compression = gzip --></body></html>

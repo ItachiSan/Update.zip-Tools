@@ -1,0 +1,31 @@
+/*
+Theme Name: TidalForce
+Theme URI: http://www.elegantwordpressthemes.com/themes/tidalforce
+Version: 1.0
+Description: 2 Column theme from Elegant WPT
+Author: Elegant Wordpress Theme
+Author URI: http://www.elegantwordpressthemes.com
+*/
+
+#wpcf label {
+	clear: both;
+	display: block;
+	float: left;
+	width: 150px;
+}
+#wpcf input {
+	float: left;
+	width: 200px;
+	padding: 1px;
+	margin: 2px 5px 2px 0;
+}
+#wpcf textarea {
+	width: 350px;
+	height: 100px;
+	padding: 1px;
+	margin: 0 5px 10px 0;
+}
+#wpcf #contactsubmit {
+	margin-left: 250px;
+	width: 100px;
+}
